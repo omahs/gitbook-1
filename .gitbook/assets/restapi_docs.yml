@@ -1,0 +1,188 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: "Flipside Rest API"
+  description: Used to run sql queries on Flipside blockchain data
+paths:
+  /queries:
+    post:
+      summary: Queue up the execeution of a sql statement and get a token back which you can use to poll the result
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ExecParam"
+            examples:
+              Simple:
+                value:
+                  sql: select TX_ID from ethereum.TRANSACTIONS limit 10
+              With-Parameters:
+                value:
+                  sql: select {{col}} from ethereum.TRANSACTIONS limit {{amount}}
+                  params:
+                    col: TX_ID
+                    amount: 10
+              All:
+                value:
+                  sql: select {{col}} from ethereum.TRANSACTIONS limit {{amount}}
+                  params:
+                    col: TX_ID
+                    amount: 10
+                  cache: true
+                  ttl_minutes: 15
+      responses:
+        "200":
+          description: token used to poll for query results
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - token
+                  - cached
+                properties:
+                  token:
+                    type: string
+                    description: token used to poll for query result
+                    example: queryRun-3faa00f922cf482ef798b1ec98ee3c16
+                  cached:
+                    type: boolean
+                    description: true if the query result is already cached
+        "400":
+          description: error state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /queries/{token}:
+    get:
+      summary: Poll this endpoint to get the response of your query run
+      parameters:
+        - in: path
+          name: token
+          required: true
+          schema:
+            type: string
+          description: The token received as a response from POST /queries
+          example: queryRun-3faa00f922cf482ef798b1ec98ee3c16
+        - in: query
+          name: limit
+          required: false
+          schema:
+            type: number
+        - in: query
+          name: offset
+          required: false
+          schema:
+            type: number
+      responses:
+        "200":
+          description: results of query run and other metadata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QueryResults"
+        "400":
+          description: error state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+components:
+  schemas:
+    ExecParam:
+      type: object
+      required:
+        - sql
+      properties:
+        sql:
+          type: string
+          description: sql statement to execute
+          example: select TX_ID from ethereum.TRANSACTIONS limit 10
+        ttl_minutes:
+          type: integer
+          minimum: 1
+          maximum: 1440
+          default: 15
+          description: Amount of time query result will remain in cache.
+        cache:
+          type: boolean
+          default: true
+          description: If false, will ignore cached results and re-execute.
+        params:
+          type: object
+          description: Key values to replace sql statement with in sql templated parameters.
+          additionalProperties:
+            type: string
+    QueryResults:
+      type: object
+      required:
+        - results
+        - columnLabels
+        - status
+        - startedAt
+        - endedAt
+        - columnTypes
+      properties:
+        results:
+          type: array
+          description: Array of rows. Each row is an array of strings. Each element in a row corresponds to its respective columnLabel.
+          example: [["1", "2", "3"], ["6", "5", "4"]]
+          items:
+            type: array
+            items:
+              type: string
+        columnLabels:
+          type: array
+          description: Array of rows. Each row is an array of strings. Each element in a row corresponds to its respective columnLabel.
+          example: ["day", "avg_deposits", "avg_borrowed"]
+          items:
+            type: string
+        columnTypes:
+          type: array
+          items:
+            type: string
+          description: Describes data type of each column in a row.
+          example: ["timestamp", "number", "number"]
+        status:
+          type: string
+          enum: ["finished", "running", "failed"]
+          description: If running, keep polling until finished.
+        message:
+          type: string
+          description: Indicates an error message
+        startedAt:
+          type: string
+          description: Shows when query started running (ISO 8601)
+          example: "2022-05-07T00:15:00.000Z"
+        endedAt:
+          type: string
+          description: Shows when query ended running (ISO 8601)
+          example: "2022-05-07T00:15:01.000Z"
+    Error:
+      type: object
+      required:
+        - errors
+      properties:
+        errors:
+          type: object
+          additionalProperties: true
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+
+security:
+  - ApiKeyAuth: []
+
+servers:
+  - description: Production server
+    url: https://node-api.flipsidecrypto.com/
+  - description: Local Dev
+    url: http://localhost:3001/
+  - description: Staging
+    url: https://node-api.flipside.kitchen/
