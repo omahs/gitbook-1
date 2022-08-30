@@ -68,6 +68,7 @@
     * [Borrows](our-data/tables/compound-tables/borrows.md)
     * [Market Stats](our-data/tables/compound-tables/market-stats.md)
   * [Crosschain Tables](our-data/tables/crosschain-tables-1/README.md)
+    * [Dim Dates](our-data/tables/crosschain-tables-1/dim-dates.md)
     * [Crosschain Address Labels](our-data/tables/crosschain-tables-1/crosschain-address-labels.md)
     * [Crosschain Address Tags](our-data/tables/crosschain-tables-1/crosschain-address-tags.md)
   * [Ethereum Tables](our-data/tables/table-schemas/README.md)
