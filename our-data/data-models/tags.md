@@ -2,7 +2,7 @@
 
 Tags identify traits or behaviors that belong to an address.&#x20;
 
-For a table of all tagged addresses see [the Crosschain schema](../tables/crosschain-tables-1/crosschain-address-tags.md).&#x20;
+For a table of all tagged addresses see [the Crosschain schema](../tables/crosschain-tables/crosschain-address-tags.md).&#x20;
 
 Do you often copy/paste lists of addresses into your queries? Tags are for you. Tags can be specific and provable, e.g. "OpenSea user", or simply a tool to group addresses and clean up your code.&#x20;
 
@@ -37,7 +37,7 @@ Using tag_\__type you can pull all celebrities tagged by the Flipside community,
 
 ## The tags table
 
-The data for our tags is stored in the data table: [crosschain.core.address\_tags](../tables/crosschain-tables-1/crosschain-address-tags.md). \
+The data for our tags is stored in the data table: [crosschain.core.address\_tags](../tables/crosschain-tables/crosschain-address-tags.md). \
 
 
 | Column Name             | Data type | Description                                                                                                                                                                                                                         |

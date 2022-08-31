@@ -2,7 +2,7 @@
 
 Labels identify known addresses that are associated with a CEX, DEX, NFT project, liquidity pool, or other entity. Each known address receives only one label, and that label is considered a "source of truth" for that address. Not every address has a label.&#x20;
 
-See [the Crosschain schema](../../tables/crosschain-tables-1/crosschain-address-labels.md) for a table containing all labeled addresses.&#x20;
+See [the Crosschain schema](../../tables/crosschain-tables/crosschain-address-labels.md) for a table containing all labeled addresses.&#x20;
 
 Flipside applies a 2-level hierarchy to all labeled addresses using 4 field attributes.&#x20;
 

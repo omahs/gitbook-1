@@ -2,6 +2,8 @@
 
 ### Table Schema
 
+A utility table of common date constructs.
+
 `crosschain.dim_dates`
 
 | Field                               | Type   | Description                                                             |

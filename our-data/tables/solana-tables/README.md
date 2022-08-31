@@ -8,7 +8,7 @@ Solana is a public base-layer blockchain protocol that optimizes for scalability
 
 ### Current Solana Tables
 
-The current Solana table schemas build concepts laid out in [Flipside's event data model](../../data-models/events-data-model.md#event-model). Solana tables are available in Velocity as the `solana` schema. The tables are built based on the Solana events and transactions information. The following Solana tables are available:
+The current Solana table schemas build concepts laid out in [Flipside's event data model](broken-reference). Solana tables are available in Velocity as the `solana` schema. The tables are built based on the Solana events and transactions information. The following Solana tables are available:
 
 [Solana Dim Labels](solana-dim-labels.md)
 

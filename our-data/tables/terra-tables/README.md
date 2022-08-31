@@ -8,7 +8,7 @@ Terra is a Proof of stake chain and can also be used as a Smart contract platfor
 
 ## Terra Tables
 
-The Terra table schemas build on the concepts laid out in [Flipside's event data model](../../data-models/events-data-model.md#event-model). Terra tables are available in Velocity as the `terra` schema. The tables are built based on the terra message, transactions and transition information.&#x20;
+The Terra table schemas build on the concepts laid out in [Flipside's event data model](broken-reference). Terra tables are available in Velocity as the `terra` schema. The tables are built based on the terra message, transactions and transition information.&#x20;
 
 At Flipside database, for Terra, there are two types of tables, one is the Raw Tables and the other one is the Terra Base Tables, clicking the following link to see more details about the tables.&#x20;
 

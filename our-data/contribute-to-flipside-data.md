@@ -1,29 +1,39 @@
 ---
-description: >-
-  A guide to data curation within Flipside.  Currently only Avalanche and
-  Ethereum repositories are setup for community curation.
+description: A guide to data curation with Flipside.
 ---
 
 # Contribute to Flipside Data
 
-## Access
+## Public Data Models
 
-#### Snowflake (ask in #community-curation-beta discord channel)
+Links to the public Github repos for all data model source code can be found in the [table docs](tables/) for each blockchain/blockchain project.
 
-Hi , I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>`
+## Contribute Tags & Labels
 
-#### dbt cloud \[Optional]
+See [How to Add Tags](https://docs.flipsidecrypto.com/our-data/data-models/tags#how-to-add-tags) on the Tags data model page.
+
+## Contribute Models with DBT
+
+The Flipside community uses [DBT](https://docs.getdbt.com/) to model data. This section gives a complete overview of getting set up to contribute models with DBT. (Hint: if you know SQL, you're 95% of the way to knowing DBT.) [Avalanche](tables/avalanche-tables.md) and [Ethereum ](tables/ethereum-core-tables.md)repositories are setup for community curation.
+
+#### Access
+
+**Snowflake (ask in #community-curation-beta discord channel)**
+
+"Hi , I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>"`
+
+**dbt cloud \[Optional]**
 
 Sign up on your own:  [https://www.getdbt.com/signup/](https://www.getdbt.com/signup/)
 
-### **Software Setup**
+#### **Software Setup**
 
 * (Optional) Install dbt on your terminal:[  https://docs.getdbt.com/dbt-cli/install/overview](https://docs.getdbt.com/dbt-cli/install/overview)
 * Install Git (if you don’t have it):[  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Download Docker desktop: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 * Install VSCode: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-### **Project Setup**
+#### **Project Setup**
 
 1. Clone the project you want to work on from [FlipsideCrypto Github Org](https://github.com/FlipsideCrypto)
    * Example for Ethereum: `git clone https://github.com/FlipsideCrypto/ethereum-models.git`
@@ -40,9 +50,9 @@ Sign up on your own:  [https://www.getdbt.com/signup/](https://www.getdbt.com/si
    * `make dbt-console`
 6. Within the console, run `dbt debug` to ensure all connections are working
 
-**You are now ready to write your first data model!**
+**You are now ready to create your first data model!**
 
-### **Creating your first model**
+#### **Create and contribute your first model**
 
 1. Understand the modeling structure
    * Data models iterate through different “layers”. Generally speaking these are bronze, silver, and core.

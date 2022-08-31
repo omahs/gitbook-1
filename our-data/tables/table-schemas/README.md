@@ -2,7 +2,7 @@
 
 **Blockchain:** [Ethereum](https://ethereum.org/en/)
 
-The Ethereum table schemas build on the concepts laid out in [Flipside's event data model](../../data-models/events-data-model.md#event-model), with a few enhancements to account for specific contract data on Ethereum.
+The Ethereum table schemas build on the concepts laid out in [Flipside's event data model](broken-reference), with a few enhancements to account for specific contract data on Ethereum.
 
 ### Tables
 

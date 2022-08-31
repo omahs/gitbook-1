@@ -3,7 +3,7 @@
 This guide provides an introduction to exploring Dai related events by using the`ethereum.udm_events` table over a series of simple queries that explore the data.
 
 {% hint style="info" %}
-For a breakdown of the Ethereum Events table schema [go here.](../tables/table-schemas/ethereum-events.md)
+Note: this tutorial uses deprecated Ethereum tables. See the new [Maker DAO](../tables/ethereum-maker-dao-tables.md) curated tables.
 {% endhint %}
 
 Let's familiarize ourselves with the table by first looking at the types of events that can be queried for `Dai`

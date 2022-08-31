@@ -1,6 +1,8 @@
-# Ethereum\_Core Tables
+# Ethereum Core Tables
 
-Documentation for `Ethereum_core` tables can be found [here](https://flipsidecrypto.github.io/ethereum-models/#!/overview). \
+Documentation for `Ethereum_core` tables can be found [here](https://flipsidecrypto.github.io/ethereum-models/#!/overview).&#x20;
+
+The public Github repo with Ethereum Core model source code is [here](https://github.com/FlipsideCrypto/ethereum-models).\
 \
 Quick Links to Table Docs:\
 

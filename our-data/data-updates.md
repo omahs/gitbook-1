@@ -1,14 +1,12 @@
----
-description: >-
-  Important updates about the blockchain data publicly available through
-  Flipside SQL editor
----
-
 # Data Updates
 
-## **For More information on new databases and three part naming, please see** [**this document**](https://docs.google.com/document/d/1swYTBHYNoY27Mz5FB2Ru0KNTLRhwX6imWQtlyW5F-7Q/edit)****
+**Join our** [**Discord**](https://discord.gg/ZmU3jQuu6W) **for recent data updates.**&#x20;
 
-**Solana Schema**
+This page is used for major occasional changes that may impact existing queries (e.g. moving refactoring schemas).
+
+
+
+### **June 2022: Solana Schema**
 
 Solana will be have its own database starting early June 2022! We will move it from
 
@@ -16,11 +14,13 @@ flipside\_prod\_db --> solana
 
 Your queries and dashboards will continue to work for a period of time. To future proof your dashboards, you should move over **all work** to the three part naming convention in the new solana database.&#x20;
 
-****
+### **May 2022: Three Part Naming**
 
-**Ethereum Schema**
+For more information on new databases and three part naming, please see [this document](https://docs.google.com/document/d/1swYTBHYNoY27Mz5FB2Ru0KNTLRhwX6imWQtlyW5F-7Q/edit).
 
-**Ethereum will have its own database starting May 25, 2022! flipside\_prod\_db.ethereum\_core will still be supported until June. We are actively making infrastructure upgrades and it will replace both flipside\_prod\_db.ethereum and ethereum\_core.**&#x20;
+### **May 2022: Ethereum Schema**
+
+Ethereum will have its own database starting May 25, 2022! flipside\_prod\_db.ethereum\_core will still be supported until June. We are actively making infrastructure upgrades and it will replace both flipside\_prod\_db.ethereum and ethereum\_core.&#x20;
 
 New Ethereum tables will be released in April 2022!
 

@@ -2,6 +2,8 @@
 
 Documentation for \`bsc\` tables can be found [`here`](https://flipsidecrypto.github.io/bsc-models/#!/overview).
 
+The public Github repo with BSC model source code is [here](https://github.com/FlipsideCrypto/bsc-models).
+
 Please note, data is in 'lite mode' - meaning, historical data has not yet been backfilled. Please see the `min(block`\_`timestamp)`.&#x20;
 
 Quick Links to Table Docs:
@@ -14,7 +16,7 @@ Quick Links to Table Docs:
 * ``[`dim_labels`](https://flipsidecrypto.github.io/bsc-models/#!/model/model.bsc\_models.core\_\_dim\_labels)``
 * ``[`ez_bnb_transfers`](https://flipsidecrypto.github.io/bsc-models/#!/model/model.bsc\_models.core\_\_ez\_bnb\_transfers)``
 
-`Sushi`
+`Sushi specific tables:`
 
 * ``[`dim_dex_pools`](https://flipsidecrypto.github.io/bsc-models/#!/model/model.bsc\_models.sushi\_\_dim\_dex\_pools)``
 * ``[`dim_kashi_pairs`](https://cloud.getdbt.com/accounts/1258/runs/77461492/docs/#!/model/model.bsc\_models.sushi\_\_dim\_kashi\_pairs)``

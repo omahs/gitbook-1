@@ -2,7 +2,7 @@
 
 **Blockchain:** [Ethereum](https://ethereum.org/en/)
 
-The Compound table schemas build on the concepts laid out in [Flipside's event data model](../../data-models/events-data-model.md#event-model). Below is a visual overview of the Compound protocol's primary functions of decentralized borrowing and lending.&#x20;
+The Compound table schemas build on the concepts laid out in [Flipside's event data model](broken-reference). Below is a visual overview of the Compound protocol's primary functions of decentralized borrowing and lending.&#x20;
 
 ![](<../../../.gitbook/assets/Screen Shot 2021-04-20 at 11.44.31 AM.png>)
 

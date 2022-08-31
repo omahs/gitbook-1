@@ -6,25 +6,34 @@ description: >-
 
 # Tables
 
-Table level guides are organized by blockchain or blockchain project. Within each table guide, you will find a column by column breakdown describing the specifics of the schema.&#x20;
+Table level guides are organized by schema for every blockchain or blockchain project. \
+\
+Each table guide has:
 
-### Table Documentation
+* column descriptions and/or links to DBT docs w/ column descriptions and model lineage graphs.
+* links to public Github repos.\
 
-{% content-ref url="table-schemas/" %}
-[table-schemas](table-schemas/)
-{% endcontent-ref %}
 
-{% content-ref url="table-schemas/ethereum-nft-tables/" %}
-[ethereum-nft-tables](table-schemas/ethereum-nft-tables/)
-{% endcontent-ref %}
+Flipside community data include schemas for:
 
-{% content-ref url="compound-tables/" %}
-[compound-tables](compound-tables/)
-{% endcontent-ref %}
+| Schema                                     |                                                     |
+| ------------------------------------------ | --------------------------------------------------- |
+| [Crosschain Tables](broken-reference)      | [MakerDAO](ethereum-maker-dao-tables.md)            |
+| [Arbitrum](arbitrum-tables.md)             | [NEAR ](near-tables.md)                             |
+| [AAVE](aave-tables/)                       | [Optimism](optimism-tables.md)                      |
+| [Avalanche](avalanche-tables.md)           | [Osmosis](osmosis-tables/)                          |
+| [Algorand](algorand-tables/)               | [Polygon (legacy tables)](polygon-tables/)          |
+| [Astroport](astroport-tables/)             | [Polygon 2.0](polygon-2.0-tables.md)                |
+| [BSC](bsc-tables.md)                       | [Solana](solana-tables/)                            |
+| [Compound](compound-tables/)               | [Sushi](ethereum-sushi-tables.md)                   |
+| [Ethereum (legacy tables)](table-schemas/) | [Terra](terra-tables/)                              |
+| [Ethereum Core](ethereum-core-tables.md)   | [Terraswap](terraswap-tables/)                      |
+| [FLOW](flow-tables/)                       | [THORChain](thorchain-tables/thorchain-base-table/) |
+| [Gnosis](flow-tables/)                     | [Uniswap V3](uniswap-v3-tables/)                    |
 
 
 
 {% hint style="info" %}
-New blockchains/blockchain projects are added regularly.
+New blockchains/blockchain projects are added regularly.&#x20;
 {% endhint %}
 

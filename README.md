@@ -8,7 +8,7 @@ description: >-
 
 ### Flipside Crypto puts pre-modeled and labeled blockchain data in the hands of communities.
 
-Through dashboard and visualization tools, as well as auto-generated API endpoints, data analysts can easily create queries that answer any question.
+Through our [web SQL/dashboard editor](https://app.flipsidecrypto.com/) and our [SDK](shroomdk-sdk/getting-started.md), data analysts can easily create queries that answer any question.
 
 ### **Community members earn bounties for answering questions with data**
 

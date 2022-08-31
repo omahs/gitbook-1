@@ -2,6 +2,8 @@
 
 Documentation for \`arbitrum\` tables can be found [here](https://flipsidecrypto.github.io/arbitrum-models/#!/overview).
 
+The public Github repo with Arbitrum model source code is [here](https://github.com/FlipsideCrypto/arbitrum-models).
+
 Please note, data is in 'lite mode' - meaning, historical data has not yet been backfilled. Please see the `min(block`\_`timestamp)`.&#x20;
 
 Quick Links to Table Docs:

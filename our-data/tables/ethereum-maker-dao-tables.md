@@ -1,8 +1,10 @@
 # Ethereum Maker DAO Tables
 
-Documentation for the curated Ethereum Maker DAO Tables are included in the DBT documentation under the following path: Projects/Ethereum\_models/models/gold/maker\
+Documentation for the curated Ethereum Maker DAO Tables are included in [the Ethereum Core DBT documentation](https://flipsidecrypto.github.io/ethereum-models/#!/overview/ethereum\_models) under the following path in the sidebar: Projects/Ethereum\_models/models/gold/maker
+
+The public Github repo with Ethereum Maker DAO model source code is similarly in the Ethereum Core repo [here](https://github.com/FlipsideCrypto/ethereum-models).\
 \
-The following tables are available: \
+Quick Links to Table Docs:\
 \
 [Maker EZ Delegations](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.maker\_\_ez\_delegations)
 
