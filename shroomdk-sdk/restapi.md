@@ -19,16 +19,16 @@ There are two endpoints in the API.
 
 The following endpoint will queue up the execution of a query. If results already exist the query will not be executed. The endpoint returns a `token` that can be plugged into the `Get Query Results` endpoint to retrieve your data.
 
-{% swagger src="../.gitbook/assets/rest_api.yml" path="/queries" method="post" %}
-[rest_api.yml](../.gitbook/assets/rest_api.yml)
+{% swagger src="../.gitbook/assets/rest_api_2022-08-31.yml" path="/queries" method="post" %}
+[rest_api_2022-08-31.yml](../.gitbook/assets/rest_api_2022-08-31.yml)
 {% endswagger %}
 
 ### Get Query Results
 
 This endpoint takes as input a `token` from a `Create Query` response.
 
-{% swagger src="../.gitbook/assets/rest_api.yml" path="/queries/{token}" method="get" %}
-[rest_api.yml](../.gitbook/assets/rest_api.yml)
+{% swagger src="../.gitbook/assets/rest_api_2022-08-31.yml" path="/queries/{token}" method="get" %}
+[rest_api_2022-08-31.yml](../.gitbook/assets/rest_api_2022-08-31.yml)
 {% endswagger %}
 
 ### Example in Python:
