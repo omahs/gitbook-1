@@ -1,5 +1,9 @@
 # Polygon UDM Events
 
+{% hint style="warning" %}
+These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
+{% endhint %}
+
 Polygon UDM events exist within the `polygon` schema, as `polygon.udm_events`&#x20;
 
 Within the event table, native MATIC transfers, internal transactions, and contract calls are all modeled as "events".

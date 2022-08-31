@@ -1,5 +1,9 @@
 # NFT Metadata
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 NFT Metadata exists within the `ethereum` schema, as `ethereum.nft_metadata`
 
 | Field                  | Type      | Description                                                                                                                                                                                      |

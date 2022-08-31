@@ -1,5 +1,9 @@
 # Polygon Events Emitted
 
+{% hint style="warning" %}
+These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
+{% endhint %}
+
 Polygon events emitted table contains the information for the Polygon events, it is extracted from the Polygon blockchain and there are some notable features:
 
 * All event inputs are decoded and stored in a fully queryable JSON column called `event_inputs`

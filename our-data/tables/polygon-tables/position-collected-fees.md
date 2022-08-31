@@ -4,6 +4,10 @@ description: uniswapv3.position_collected_fees
 
 # Position Collected Fees
 
+{% hint style="warning" %}
+These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
+{% endhint %}
+
 Fees collected by a Liquidity Provider (LP) on their position. In V3 fees are accrued and collected in each token within the pair. When a pool `Collect` event is emitted a new record is appended to this table. If a `Burn` event is emitted in the same transaction as the `Collect` event the amount of the burn is subtracted from the `Collect` event token1 and token0 amounts. This allows us to arrive solely at the swap fees collected.
 
 | Field                         | Type      | Description                                                                                |

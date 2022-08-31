@@ -1,5 +1,9 @@
 # DEX Swaps
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 The liquidity swaps table (accessible through`ethereum.dex_swaps`) holds information on individual swap events, including the pool address, address of the swapped token, the address the swapped currency was sent to and the amount.
 
 | Field             | Type      | Description                                                                                                                                                                                                                           |

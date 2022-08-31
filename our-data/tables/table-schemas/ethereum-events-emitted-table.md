@@ -1,5 +1,9 @@
 # Ethereum Events Emitted Table
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 Native [Ethereum Events](https://docs.soliditylang.org/en/v0.7.5/contracts.html#events) exist within the `ethereum` schema, as `ethereum.events_emitted`&#x20;
 
 Notable Features:

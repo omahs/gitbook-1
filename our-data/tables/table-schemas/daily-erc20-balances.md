@@ -1,5 +1,9 @@
 # ERC20 Balances Table
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 The `ethereum.erc20_balances` table contains daily roll-ups of balances for each address associated with an ERC-20 token. The table is updated throughout the day, to provide an intra-day view of balance readings as on-chain events occur.&#x20;
 
 ## Table Schema

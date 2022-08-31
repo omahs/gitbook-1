@@ -1,5 +1,9 @@
 # DEX Liquidity Pools
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 The liquidity pools table (accessible through`ethereum.dex_liquidity_pools`) holds meta information on each pool created. (hint: Joining this table on `ethereum.erc20_balances` is one way to collect information on TVL, summing the balances of both tokens in the pool.)
 
 As a further note worth highlighting the pool address is both the address that holds a balance of the two tokens _and_ the address of the pool token itself. So the address for UNI-WETH, will hold both UNI and WETH as a balance but the same address serves as the contract address for the pool token distributed to UNI-WETH liquidity providers.

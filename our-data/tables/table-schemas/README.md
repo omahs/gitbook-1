@@ -1,8 +1,8 @@
 # Ethereum Tables
 
-**Blockchain:** [Ethereum](https://ethereum.org/en/)
-
-The Ethereum table schemas build on the concepts laid out in [Flipside's event data model](broken-reference), with a few enhancements to account for specific contract data on Ethereum.
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
 
 ### Tables
 

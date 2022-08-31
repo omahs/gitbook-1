@@ -1,5 +1,9 @@
 # Ethereum UDM Events Table
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 Ethereum events exist within the `ethereum` schema, as `ethereum.udm_events`&#x20;
 
 Within the event table, native ETH transfers, internal transactions, and contract calls are all modeled as "events".

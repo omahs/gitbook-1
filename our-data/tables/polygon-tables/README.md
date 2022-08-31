@@ -2,7 +2,9 @@
 
 **Blockchain:** [Polygon](https://polygon.technology/)
 
-The Polygon table schemas build on the concepts laid out in [Flipside's event data model](broken-reference), with a few enhancements to account for specific contract data on Polygon.
+{% hint style="warning" %}
+These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
+{% endhint %}
 
 ### Tables
 

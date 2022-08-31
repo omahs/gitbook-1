@@ -1,5 +1,9 @@
 # Polygon Transactions
 
+{% hint style="warning" %}
+These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
+{% endhint %}
+
 Polygon transactions exist within the polygon schema, as `polygon.transactions` .
 
 Transactions contain top-level summary information not found in `polygon.udm_events`, for example, transaction fees and gas.

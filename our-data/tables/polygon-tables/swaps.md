@@ -4,6 +4,10 @@ description: uniswapv3.swaps
 
 # Swaps
 
+{% hint style="warning" %}
+These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
+{% endhint %}
+
 All swaps that occur on V3 pools.
 
 | Field                | Type      | Description                                                                            |

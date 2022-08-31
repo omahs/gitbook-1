@@ -4,6 +4,10 @@ description: (BETA)
 
 # Ethereum NFT Tables
 
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 We have two NFT tables, currently in phase 1 of beta: nft\_events (mints, sales, etc) and nft\_metadata (token names, images, attributes, etc.). Check out some sample queries [here](https://velocity-app.flipsidecrypto.com/velocity/collections/4d5f21e4-de97-47db-b3c3-c19c27e847c5).
 
 Our goal with these is to make a unified table of NFT on-chain data that makes it super easy to compare across and within NFT's. To do this we've gone pretty deep into each NFT that is in there, adding one little piece of its ecosystem at a time. That being said, we are building this for our community and we want to make it as useful as possible, so feedback is very welcome.

@@ -1,5 +1,11 @@
 # Ethereum Transactions Table
 
+
+
+{% hint style="warning" %}
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables.md) for up-to-date Ethereum models.
+{% endhint %}
+
 Ethereum transactions exist within the `ethereum` schema, as `ethereum.transactions` .
 
 Transactions contain top-level summary information not found in `ethereum.udm_events`, for example, transaction fees and gas.
