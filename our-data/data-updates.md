@@ -4,7 +4,15 @@
 
 This page is used for major occasional changes that may impact existing queries (e.g. moving refactoring schemas).
 
+### **September 2022: Ethereum & EVM changes**
 
+flipside\_prod\_db.aave -->ethereum.aave\
+flipside\_prod\_db.compound -->ethereum.compound\
+fipside\_prod\_db.ethereum --> ethereum.core\
+flipside\_prod\_db.polygon --> polygon.core\
+flipside\_prod\_db.uniswapv3-->  ethereum.uniswapv3
+
+All queries above should be moved to the new corresponding databases. Dashboards will still populate, but there will be no new data coming into those tables. The legacy flipside\_prod\_db tables will not be seen in the Flipside query editor after September 13, 2022.&#x20;
 
 ### **June 2022: Solana Schema**
 
