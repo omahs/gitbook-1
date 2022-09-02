@@ -14,7 +14,7 @@ The native token of Osmosis, Osmo, is used for governance and paying transaction
 
 ### Current Osmosis Tables
 
-The Osmosis table schema builds on the concepts in [Flipside's event data model](../../data-models/) and exist in Velocity as the `osmosis` schema. The tables are built on the Osmosis transaction and messages information.&#x20;
+The Osmosis tables are built on Osmosis transaction and messages information.&#x20;
 
 [Fact Blocks](osmosis-fact-blocks-table.md)
 

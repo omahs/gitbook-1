@@ -12,6 +12,8 @@ The Terra table schemas build on the concepts laid out in [Flipside's event data
 
 At Flipside database, for Terra, there are two types of tables, one is the Raw Tables and the other one is the Terra Base Tables, clicking the following link to see more details about the tables.&#x20;
 
+The public Github repo with Terra model source code is [here](https://github.com/FlipsideCrypto/sql\_models/tree/main/models/terra).
+
 ### Terra Raw Tables:
 
 {% content-ref url="terra-raw-tables/blocks.md" %}

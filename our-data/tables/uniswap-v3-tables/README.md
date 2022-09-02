@@ -4,6 +4,8 @@
 
 UniswapV3 tables are available in Velocity as the `uniswapv3` schema. These tables are built leveraging Ethereum logs, traces, and contract readings from Flipside's fully archival Ethereum cluster. Each table covers a core V3 concept.&#x20;
 
+The public Github repo with Uniswap V3 model source code is [here](https://github.com/FlipsideCrypto/sql\_models/tree/main/models/uniswapv3/eth\_mainnet).
+
 ### Tables
 
 ![](<../../../.gitbook/assets/Uniswap V3 - Copy of uniswapv3 silver\_tables.png>)

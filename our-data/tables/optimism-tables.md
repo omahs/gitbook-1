@@ -1,6 +1,8 @@
 # Optimism Tables
 
-Documentation for `optimism` tables can be found [here](https://flipsidecrypto.github.io/optimism-models/#!/overview).\
+Documentation for `optimism` tables can be found [here](https://flipsidecrypto.github.io/optimism-models/#!/overview).
+
+The public Github repo with Optimism model source code is [here](https://github.com/FlipsideCrypto/optimism-models).\
 \
 Please note, data is in 'lite mode' - meaning, historical data has not yet been backfilled. Please see the `min(block`\_`timestamp)`\
 \

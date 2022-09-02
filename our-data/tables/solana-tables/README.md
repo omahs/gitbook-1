@@ -6,6 +6,8 @@
 
 Solana is a public base-layer blockchain protocol that optimizes for scalability. The goal of the Solana blockchain is to provide a platform that enables developers to create decentralized applications (dApps) without needed to design around performance bottlenecks. Solana features a new timestamp system called Proof of History (PoH) that enables automatically ordered transactions. It also uses Proof of Stake (PoS) consensus algorithm to help secure the network.&#x20;
 
+The public Github repo with Solana model source code is [here](https://github.com/FlipsideCrypto/solana-models).
+
 ### Current Solana Tables
 
 The current Solana table schemas build concepts laid out in [Flipside's event data model](broken-reference). Solana tables are available in Velocity as the `solana` schema. The tables are built based on the Solana events and transactions information. The following Solana tables are available:

@@ -2,6 +2,8 @@
 
 From the [Terraswap docs](https://docs.terraswap.io/) : "Terraswap is a Uniswap-inspired automated market-maker (AMM) protocol implemented with smart contracts on the Terra blockchain."
 
+The public Github repo with Terraswap model source code is [here](https://github.com/FlipsideCrypto/sql\_models/tree/main/models/terra/swap).
+
 ### Participants [#](https://docs.terraswap.io/#participants) <a href="#participants" id="participants"></a>
 
 Terraswap users can become trader, liquidity provider or both.

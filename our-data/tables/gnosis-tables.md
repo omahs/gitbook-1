@@ -2,6 +2,8 @@
 
 Documentation for \`gnosis\` tables can be found [here](https://flipsidecrypto.github.io/gnosis-models/#!/overview).
 
+The public Github repo with Gnosis model source code is [here](https://github.com/FlipsideCrypto/gnosis-models).
+
 Please note, data is in 'lite mode' - meaning, historical data has not yet been backfilled. Please see the `min(block`\_`timestamp)`.&#x20;
 
 Quick Links to Table Docs:

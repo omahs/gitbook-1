@@ -2,6 +2,8 @@
 
 **Blockchain:** [Polygon](https://polygon.technology/)
 
+The public Github repo with Polygon model source code is [here](https://github.com/FlipsideCrypto/sql\_models/tree/main/models/polygon).
+
 {% hint style="warning" %}
 These are legacy Polygon tables. See [Polygon 2.0](../polygon-2.0-tables.md) for up-to-date Polygon models.
 {% endhint %}

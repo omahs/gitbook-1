@@ -2,6 +2,8 @@
 
 Documentation for \`polygon\` tables can be found [here](https://flipsidecrypto.github.io/polygon-models/#!/overview).
 
+The public Github repo with Polygon 2.0 model source code is [here](https://github.com/FlipsideCrypto/polygon-models).
+
 Please note, data is in 'lite mode' - meaning, historical data has not yet been backfilled. Please see the `min(block`\_`timestamp)`.&#x20;
 
 Quick Links to Table Docs:

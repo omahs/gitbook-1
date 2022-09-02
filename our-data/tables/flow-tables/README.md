@@ -10,6 +10,8 @@ For more detailed documentation on the model structures that build up the `core`
 Full Project Documentation
 {% endembed %}
 
+The public Github repo with Flow model source code is [here](https://github.com/FlipsideCrypto/flow-models).
+
 ### Quick Docs
 
 The following pages offer quick documentation with details around the schema, and descriptions of each column.
