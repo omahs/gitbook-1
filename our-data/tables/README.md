@@ -24,7 +24,7 @@ Flipside community data include schemas for:
 | [Avalanche](avalanche-tables.md)           | [Osmosis](osmosis-tables/)                          |
 | [Algorand](algorand-tables/)               | [Polygon (legacy tables)](polygon-tables/)          |
 | [Astroport](astroport-tables/)             | [Polygon 2.0](polygon-2.0-tables.md)                |
-| [BSC](bsc-tables.md)                       | [Solana](solana-tables/)                            |
+| [BSC](bsc-tables.md)                       | [Solana](solana-tables.md)                          |
 | [Compound](compound-tables/)               | [Sushi](ethereum-sushi-tables.md)                   |
 | [Ethereum (legacy tables)](table-schemas/) | [Terra](terra-tables/)                              |
 | [Ethereum Core](ethereum-core-tables.md)   | [Terraswap](terraswap-tables/)                      |

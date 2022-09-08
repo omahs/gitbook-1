@@ -12,35 +12,35 @@ The public Github repo with Solana model source code is [here](https://github.co
 
 The current Solana table schemas build concepts laid out in [Flipside's event data model](broken-reference). Solana tables are available in Velocity as the `solana` schema. The tables are built based on the Solana events and transactions information. The following Solana tables are available:
 
-[Solana Dim Labels](solana-dim-labels.md)
+[Solana Dim Labels](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_dim\_labels)
 
-[Solana Fact Blocks](solana-fact-blocks-table.md)
+[Solana Fact Blocks](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_blocks)
 
-[Solana Fact Events](solana-fact-events-table.md)&#x20;
+[Solana Fact Events](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_events)&#x20;
 
-[Solana Fact Gauges Votes](solana-fact-gauges-votes.md)
+[Solana Fact Gauges Votes](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_gauges\_votes)
 
-[Solana Fact Gov Actions](solana-fact-gov-actions.md)
+[Solana Fact Gov Actions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_gov\_actions)
 
-[Solana Dim NFT Metadata](solana-dim-nft-metadata-table.md)
+[Solana Dim NFT Metadata](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_dim\_nft\_metadata)
 
-[Solana Fact NFT Mints](solana-fact-nft-mints.md)
+[Solana Fact NFT Mints](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_nft\_mints)
 
-[Solana Fact NFT Sales](solana-fact-nft-sales.md)
+[Solana Fact NFT Sales](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_nft\_sales)
 
-[Solana Fact Proposal Creation](solana-fact-proposal-creation.md)
+[Solana Fact Proposal Creation](broken-reference)
 
-[Solana EZ Staking/LP Actions](solana-ez-staking-lp-actions.md)
+[Solana EZ Staking/LP Actions](broken-reference)
 
-[Solana Fact Staking/LP Actions](solana-fact-staking-lp-actions.md)
+[Solana Fact Staking/LP Actions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_staking\_lp\_actions)
 
-[Solana Fact Swaps](solana-fact-swaps.md)
+[Solana Fact Swaps](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_swaps)
 
-[Solana Fact Transactions](solana-fact-transactions-table.md)
+[Solana Fact Transactions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_transactions)
 
-[Solana Fact Transfers](solana-fact-transfers-table.md#table-schema)
+[Solana Fact Transfers](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_transfers)
 
-[Solana Fact Votes Agg Blocks](solana-fact-votes-block-agg.md)&#x20;
+[Solana Fact Votes Agg Blocks](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_votes\_agg\_block)&#x20;
 
 #### What we have:
 
