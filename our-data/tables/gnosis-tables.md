@@ -15,3 +15,13 @@ Quick Links to Table Docs:
 * &#x20;[`fact_token_transfers`](https://flipsidecrypto.github.io/gnosis-models/#!/model/model.gnosis\_models.core\_\_fact\_token\_transfers)``
 * ``[`dim_labels`](https://flipsidecrypto.github.io/gnosis-models/#!/model/model.gnosis\_models.core\_\_dim\_labels)``
 * ``[`ez_xdai_transfers`](https://flipsidecrypto.github.io/gnosis-models/#!/model/model.gnosis\_models.core\_\_ez\_xdai\_transfers)``
+
+``
+
+`Sushi specific tables:`
+
+* [sushi\_\_dim\_dex\_pools](https://cloud.getdbt.com/accounts/1258/runs/80579141/docs/#!/model/model.gnosis\_models.sushi\_\_dim\_dex\_pools)
+* [sushi\_\_dim\_kashi\_pairs](https://cloud.getdbt.com/accounts/1258/runs/80579141/docs/#!/model/model.gnosis\_models.sushi\_\_dim\_kashi\_pairs)
+* [sushi\_\_ez\_swaps ](https://cloud.getdbt.com/accounts/1258/runs/80579141/docs/#!/model/model.gnosis\_models.sushi\_\_ez\_swaps)
+* [sushi\_\_ez\_borrowing](https://cloud.getdbt.com/accounts/1258/runs/80579141/docs/#!/model/model.gnosis\_models.sushi\_\_ez\_borrowing)
+* [sushi\_\_ez\_lending](https://cloud.getdbt.com/accounts/1258/runs/80579141/docs/#!/model/model.gnosis\_models.sushi\_\_ez\_lending)
