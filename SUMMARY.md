@@ -43,6 +43,7 @@
       * [Prices Swap](our-data/tables/algorand-tables/algorand-base-tables/prices-swap.md)
       * [Prices Pool Balances](our-data/tables/algorand-tables/algorand-base-tables/prices-pool-balances.md)
       * [Daily Balances](our-data/tables/algorand-tables/algorand-base-tables/daily-balances.md)
+    * [Core Tables](our-data/tables/algorand-tables/core-tables.md)
   * [Astroport Tables](our-data/tables/astroport-tables/README.md)
     * [Astroport Pool Reserves](our-data/tables/astroport-tables/lp-actions.md)
     * [Astroport Swaps](our-data/tables/astroport-tables/swap.md)
