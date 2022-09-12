@@ -7,6 +7,8 @@
 * [Contribute to Flipside Data](our-data/contribute-to-flipside-data.md)
 * [Tables](our-data/tables/README.md)
   * [Crosschain Tables](our-data/tables/crosschain-tables/README.md)
+    * [Fact Hourly Prices](our-data/tables/crosschain-tables/fact-hourly-prices.md)
+    * [Dim Asset Metadata](our-data/tables/crosschain-tables/dim-asset-metadata.md)
     * [Dim Dates](our-data/tables/crosschain-tables/dim-dates.md)
     * [Crosschain Address Labels](our-data/tables/crosschain-tables/crosschain-address-labels.md)
     * [Crosschain Address Tags](our-data/tables/crosschain-tables/crosschain-address-tags.md)
