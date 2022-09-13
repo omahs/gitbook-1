@@ -54,7 +54,7 @@ ORDER BY metric_date ASC
 
 ![](<../../.gitbook/assets/Screen Shot 2020-11-08 at 8.29.00 PM.png>)
 
-We can break this query down even further by leveraging [Flipside's labels](../data-models/labels/). Let's calculate the amount of DAI that is flowing to centralized exchanges using the `distributor_cex` label sub-type.
+We can break this query down even further by leveraging [Flipside's labels](../address-tags-and-labels/labels/). Let's calculate the amount of DAI that is flowing to centralized exchanges using the `distributor_cex` label sub-type.
 
 ```sql
 SELECT 

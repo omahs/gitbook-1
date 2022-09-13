@@ -6,8 +6,8 @@ description: This page lists all the base tables for Terra
 
 The Terra base tables contains the table from the Raw Table side, it will be used to create the Starter Queries.&#x20;
 
-{% content-ref url="../../../data-models/labels/" %}
-[labels](../../../data-models/labels/)
+{% content-ref url="../../../address-tags-and-labels/labels/" %}
+[labels](../../../address-tags-and-labels/labels/)
 {% endcontent-ref %}
 
 {% content-ref url="oracle-prices.md" %}

@@ -20,18 +20,18 @@ table name: `terra.transfer_events`
 | `INITIAL_ACTION`          | text      | Initial action for a transfer event                                                                                                                     |
 | `CURRENT_ACTION`          | text      | Current action for a transfer event                                                                                                                     |
 | `SENDER`                  | text      | Transfer sender                                                                                                                                         |
-| `SENDER_LABEL_TYPE`       | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
-| `SENDER_LABEL_SUBTYPE`    | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
-| `SENDER_ADDRESS_LABEL`    | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
-| `SENDER_ADDRESS_NAME`     | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
+| `SENDER_LABEL_TYPE`       | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
+| `SENDER_LABEL_SUBTYPE`    | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
+| `SENDER_ADDRESS_LABEL`    | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
+| `SENDER_ADDRESS_NAME`     | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
 | `RECIPIENT`               | text      | Transfer recipient                                                                                                                                      |
-| `RECIPIENT_LABEL_TYPE`    | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
-| `RECIPIENT_LABEL_SUBTYPE` | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
-| `RECIPIENT_ADDRESS_LABEL` | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
-| `RECIPIENT_ADDRESS_NAME`  | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
+| `RECIPIENT_LABEL_TYPE`    | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
+| `RECIPIENT_LABEL_SUBTYPE` | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
+| `RECIPIENT_ADDRESS_LABEL` | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
+| `RECIPIENT_ADDRESS_NAME`  | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
 | `CURRENCY`                | text      | The transfer currency                                                                                                                                   |
 | `AMOUNT`                  | number    | The transfer amount                                                                                                                                     |
 | `AMOUNT_USD`              | number    | The transfer amount in USD, it is calculated by the hourly price multiplied by the transfer amount                                                      |
 | `MSG_SENDER`              | text      | The message sender, from message event types                                                                                                            |
 | `CONTRACT_ADDRESS`        | text      | The contract address that is responsible for kicking off the transfer event, if applicable                                                              |
-| `CONTRACT_LABEL`          | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
+| `CONTRACT_LABEL`          | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |

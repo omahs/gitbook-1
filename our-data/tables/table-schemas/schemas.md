@@ -26,31 +26,31 @@ In cases where more complex contract methods are called, multiple events are rec
 
 `ethereum.transactions`
 
-| Field                | Type                               | Description                                                         |
-| -------------------- | ---------------------------------- | ------------------------------------------------------------------- |
-| block\_number        | number                             | The block height this event was recorded at.                        |
-| block\_timestamp     | timestamp                          | UTC block timestamp for parent block                                |
-| event\_count         | number                             | The number of events contained within this transaction.             |
-| fee                  | number                             | The transaction fee calculated from the gas price and the gas used. |
-| fee\_usd             | number                             | The USD equivalent fee at the time of the transaction.              |
-| from\_address        | address                            | The sender/initiator of the transaction.                            |
-| from\_addres\_name   | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| from\_label          | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| from\_label\_subtype | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| from\_label\_type    | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| function\_name       | string                             | The English decoded name of the function signature, if applicable.  |
-| function\_signature  | string                             | The function signature of the contract call, if applicable.         |
-| gas\_limit           | number                             | The gas limit specified in this transaction.                        |
-| gas\_price           | number                             | The gas price at the time of this transaction.                      |
-| gas\_used            | number                             | The amount of gas used by this transaction.                         |
-| nonce                | number                             | The number of transactions sent from the `from_address.`            |
-| success              | text                               | The success state of this transaction execution.                    |
-| symbol               | text                               | The project symbol (i.e. ERC-20 transaction), if applicable.        |
-| to\_address          | text                               | The recipient of the transaction, or contract being called.         |
-| to\_addres\_name     | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| to\_label            | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| to\_label\_subtype   | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| to\_label\_type      | [label](../../data-models/labels/) | [(see label's data model for details)](../../data-models/labels/)   |
-| tx\_id               | string                             | The hash (unique identifier) of the transaction.                    |
-| tx\_position         | string                             | The position of the transaction in the block.                       |
+| Field                | Type                                           | Description                                                                   |
+| -------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- |
+| block\_number        | number                                         | The block height this event was recorded at.                                  |
+| block\_timestamp     | timestamp                                      | UTC block timestamp for parent block                                          |
+| event\_count         | number                                         | The number of events contained within this transaction.                       |
+| fee                  | number                                         | The transaction fee calculated from the gas price and the gas used.           |
+| fee\_usd             | number                                         | The USD equivalent fee at the time of the transaction.                        |
+| from\_address        | address                                        | The sender/initiator of the transaction.                                      |
+| from\_addres\_name   | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| from\_label          | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| from\_label\_subtype | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| from\_label\_type    | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| function\_name       | string                                         | The English decoded name of the function signature, if applicable.            |
+| function\_signature  | string                                         | The function signature of the contract call, if applicable.                   |
+| gas\_limit           | number                                         | The gas limit specified in this transaction.                                  |
+| gas\_price           | number                                         | The gas price at the time of this transaction.                                |
+| gas\_used            | number                                         | The amount of gas used by this transaction.                                   |
+| nonce                | number                                         | The number of transactions sent from the `from_address.`                      |
+| success              | text                                           | The success state of this transaction execution.                              |
+| symbol               | text                                           | The project symbol (i.e. ERC-20 transaction), if applicable.                  |
+| to\_address          | text                                           | The recipient of the transaction, or contract being called.                   |
+| to\_addres\_name     | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| to\_label            | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| to\_label\_subtype   | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| to\_label\_type      | [label](../../address-tags-and-labels/labels/) | [(see label's data model for details)](../../address-tags-and-labels/labels/) |
+| tx\_id               | string                                         | The hash (unique identifier) of the transaction.                              |
+| tx\_position         | string                                         | The position of the transaction in the block.                                 |
 

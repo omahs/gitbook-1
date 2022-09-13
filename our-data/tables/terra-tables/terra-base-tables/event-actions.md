@@ -21,6 +21,6 @@ table name: `terra.event_actions`
 | `ACTION_INDEX`            | number    | Index for event actions                                                                                                                                 |
 | `MSG_INDEX`               | number    | Message index, it is like the different steps for message, one message group can contain multiple message index values to deliver different information |
 | `ACTION_CONTRACT_ADDRESS` | text      | Contract address that kicked off this event action                                                                                                      |
-| `CONTRACT_LABEL`          | text      | [(see Labels section for details)](../../../data-models/labels/)                                                                                        |
+| `CONTRACT_LABEL`          | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                                            |
 | `ACTION_METHOD`           | text      | The action or method within an event                                                                                                                    |
 | `ACTION_LOG`              | object    | The log that provides detail (amounts, to, from, etc.) to an action or method                                                                           |

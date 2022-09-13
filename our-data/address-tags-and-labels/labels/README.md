@@ -1,8 +1,31 @@
 # Labels
 
-Labels identify known addresses that are associated with a CEX, DEX, NFT project, liquidity pool, or other entity. Each known address receives only one label, and that label is considered a "source of truth" for that address. Not every address has a label.&#x20;
+Labels identify known addresses that are associated with a CEX, DEX, NFT project, liquidity pool, or other entity.&#x20;
 
-See [the Crosschain schema](../../tables/crosschain-tables/crosschain-address-labels.md) for a table containing all labeled addresses.&#x20;
+How are labels different from tags?\
+\
+Labels are a "source of truth" added by Flipside core contributors across all chains.\
+\
+Each known address receives only one label. Not every address has a label.
+
+
+
+## Label Types
+
+There are 10 label types within any blockchain.
+
+1. ****[**cex** (Centralized Exchange)](cex-label-type.md)
+2. ****[**dex** (Decentralized Exchange)](dex-label-type.md)
+3. ****[**operator** (Chain Operations)](operator-label-type.md)
+4. ****[**chadmin** (Chain Administration)](chadmin-label-type.md)
+5. ****[**defi** (Decentralized Finance Applications)](dex-label-type.md)
+6. ****[**nft** (NonFungible Token Contracts & Applications)](nft-label-type.md)
+7. ****[**layer2** (Layer 2 Dapps)](layer2-label-type.md)
+8. ****[**dapp** (Decentralized Applications)](other-label-type.md)
+9. ****[**token** (Token Contracts)](token-label-type.md)
+10. ****[**flotsam** (Junk or Other)](flotsam-label-type.md)
+
+See [the Crosschain schema](../../tables/crosschain-tables/crosschain-address-labels.md) for the table containing all labeled addresses.&#x20;
 
 Flipside applies a 2-level hierarchy to all labeled addresses using 4 field attributes.&#x20;
 
@@ -32,18 +55,5 @@ event_from_label
 event_from_address_name
 ```
 
-## Label Types
-
-There are 10 label types within any blockchain.
-
-1. ****[**cex** (Centralized Exchange)](cex-label-type.md)
-2. ****[**dex** (Decentralized Exchange)](dex-label-type.md)
-3. ****[**operator** (Chain Operations)](operator-label-type.md)
-4. ****[**chadmin** (Chain Administration)](chadmin-label-type.md)
-5. ****[**defi** (Decentralized Finance Applications)](dex-label-type.md)
-6. ****[**nft** (NonFungible Token Contracts & Applications)](nft-label-type.md)
-7. ****[**layer2** (Layer 2 Dapps)](layer2-label-type.md)
-8. ****[**dapp** (Decentralized Applications)](other-label-type.md)
-9. ****[**token** (Token Contracts)](token-label-type.md)
-10. ****[**flotsam** (Junk or Other)](flotsam-label-type.md)
+##
 

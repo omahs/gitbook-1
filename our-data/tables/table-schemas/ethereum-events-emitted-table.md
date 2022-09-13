@@ -26,14 +26,14 @@ Notable Features:
 | event\_inputs            | json      | Decoded event inputs (specifically topics/data are decoded)                                                    |
 | event\_name              | string    | English decoded name for the event name. This could be a transfer, or any decoded log method or log event name |
 | tx\_from\_address        | address   | The initiator of the transaction.                                                                              |
-| tx\_from\_address\_name  | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
-| tx\_from\_label          | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
-| tx\_from\_label\_subtype | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
-| tx\_from\_label\_type    | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
+| tx\_from\_address\_name  | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
+| tx\_from\_label          | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
+| tx\_from\_label\_subtype | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
+| tx\_from\_label\_type    | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
 | tx\_to\_address          | address   | The receiver of the transaction or initial contract being called                                               |
-| tx\_to\_address\_name    | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
-| tx\_to\_label            | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
-| tx\_to\_label\_subtype   | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
-| tx\_to\_label\_type      | string    | [(see Labels section for details)](../../data-models/labels/)                                                  |
+| tx\_to\_address\_name    | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
+| tx\_to\_label            | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
+| tx\_to\_label\_subtype   | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
+| tx\_to\_label\_type      | string    | [(see Labels section for details)](../../address-tags-and-labels/labels/)                                      |
 | tx\_id                   | string    | Transaction hash                                                                                               |
 | tx\_succeeded            | string    | Was this transaction successful?                                                                               |

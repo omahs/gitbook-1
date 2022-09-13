@@ -21,14 +21,14 @@
 | `MSG_INDEX`               | number    | The index of message, within one message there are many messaged wrapped up and index will show the position of the message  |
 | `ACTION`                  | text      | Different actions for the reward, it can be `withdraw_validator_commission`or `withdraw_delegator_rewards`                   |
 | `VALIDATOR`               | address   | Validator address                                                                                                            |
-| `VALIDATOR_LABEL_TYPE`    | text      | [(see Labels section for details)](../../../data-models/labels/)                                                             |
-| `VALIDATOR_LABEL_SUBTYPE` | text      | [(see Labels section for details)](../../../data-models/labels/)                                                             |
-| `VALIDATOR_ADDRESS_LABEL` | text      | [(see Labels section for details)](../../../data-models/labels/)                                                             |
+| `VALIDATOR_LABEL_TYPE`    | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                 |
+| `VALIDATOR_LABEL_SUBTYPE` | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                 |
+| `VALIDATOR_ADDRESS_LABEL` | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                 |
 | `VALIDATOR_ADDRESS_NAME`  | text      | Validator name linked to the address                                                                                         |
 | `DELEGATOR`               | address   | The address for the recipient to receive the reward                                                                          |
-| `DELEGATOR_LABEL_TYPE`    | text      | [(see Labels section for details)](../../../data-models/labels/)                                                             |
-| `DELEGATOR_LABEL_SUBTYPE` | text      | [(see Labels section for details)](../../../data-models/labels/)                                                             |
-| `DELEGATOR_ADDRESS_LABEL` | text      | [(see Labels section for details)](../../../data-models/labels/)                                                             |
+| `DELEGATOR_LABEL_TYPE`    | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                 |
+| `DELEGATOR_LABEL_SUBTYPE` | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                 |
+| `DELEGATOR_ADDRESS_LABEL` | text      | [(see Labels section for details)](../../../address-tags-and-labels/labels/)                                                 |
 | `DELEGATOR_ADDRESS_NAME`  | text      | The recipient name linked to the address                                                                                     |
 | `EVENT_AMOUNT`            | number    | The amount of currency for this event                                                                                        |
 | `PRICE_USD`               | number    | The price of the token at current timestamp for this currency                                                                |
