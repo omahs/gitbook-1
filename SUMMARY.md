@@ -4,6 +4,7 @@
 
 ## Our Data
 
+* [Access Flipside Data](our-data/access-flipside-data.md)
 * [Contribute to Flipside Data](our-data/contribute-to-flipside-data.md)
 * [Tables](our-data/tables/README.md)
   * [Crosschain Tables](our-data/tables/crosschain-tables/README.md)
@@ -230,3 +231,7 @@
   * [🐍 Python SDK Pagination Example](shroomdk-sdk/query-pagination/python-sdk-pagination-example.md)
   * [🔗 REST API Pagination Example](shroomdk-sdk/query-pagination/rest-api-pagination-example.md)
 * [🛑 Rate Limits](shroomdk-sdk/rate-limits.md)
+
+## Data Shares
+
+* [Snowflake Data Shares](data-shares/snowflake-data-shares.md)
