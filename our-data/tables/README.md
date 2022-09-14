@@ -27,7 +27,7 @@ Flipside community data include schemas for:
 | [BSC](bsc-tables.md)                                           | [Solana](solana-tables.md)                          |
 | [Compound](compound-tables/)                                   | [Sushi](ethereum-sushi-tables.md)                   |
 | [Ethereum (legacy tables)](table-schemas/)                     | [Terra](terra-tables/)                              |
-| [Ethereum Core](ethereum-core-tables.md)                       | [Terraswap](terraswap-tables/)                      |
+| [Ethereum Core](ethereum-core-tables/)                         | [Terraswap](terraswap-tables/)                      |
 | [FLOW](flow-tables/)                                           | [THORChain](thorchain-tables/thorchain-base-table/) |
 | [Gnosis](flow-tables/)                                         | [Uniswap V3](uniswap-v3-tables/)                    |
 

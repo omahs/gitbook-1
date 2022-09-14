@@ -23,3 +23,7 @@ Quick Links to Table Docs:
 * [sushi\_\_ez\_swaps](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.sushi\_\_ez\_swaps)&#x20;
 * [sushi\_\_ez\_borrowing](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.sushi\_\_ez\_borrowing)
 * [sushi\_\_ez\_lending](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.sushi\_\_ez\_lending)
+
+
+
+Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.hex\_to\_int() function](ethereum-core-tables/function-ethereum.public.udf\_hex\_to\_int.md).

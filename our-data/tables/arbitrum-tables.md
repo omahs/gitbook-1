@@ -25,3 +25,7 @@ Arbitrum sushi tables
 * __[_sushi\_\_ez\_swaps_](https://cloud.getdbt.com/accounts/1258/runs/68372630/docs/#!/model/model.arbitrum\_models.sushi\_\_ez\_swaps)__
 * __[_sushi\_\_ez\_borrowing_](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.sushi\_\_ez\_borrowing)__
 * __[_sushi\_\_ez\_lending_](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.sushi\_\_ez\_lending)__
+
+__
+
+Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.hex\_to\_int() function](ethereum-core-tables/function-ethereum.public.udf\_hex\_to\_int.md).

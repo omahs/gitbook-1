@@ -24,5 +24,9 @@ Polygon sushi tables
 * [sush\_\__dim\_kashi\_pairs_ ](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.sushi\_\_dim\_kashi\_pairs)__
 * __[_sushi\_\_ez\_lending_](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.sushi\_\_ez\_lending)__
 * __[_sushi\_\_ez\_borrowing_](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.sushi\_\_ez\_borrowing)__
-* __[_sushi\_\_ez\_swaps_](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.sushi\_\_ez\_swaps)__\
-  __
+* __[_sushi\_\_ez\_swaps_](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.sushi\_\_ez\_swaps)__
+
+
+
+Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.hex\_to\_int() function](ethereum-core-tables/function-ethereum.public.udf\_hex\_to\_int.md).\
+__

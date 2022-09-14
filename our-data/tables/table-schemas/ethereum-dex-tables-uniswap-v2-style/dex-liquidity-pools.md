@@ -1,7 +1,7 @@
 # DEX Liquidity Pools
 
 {% hint style="warning" %}
-These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables/) for up-to-date Ethereum models.
 {% endhint %}
 
 The liquidity pools table (accessible through`ethereum.dex_liquidity_pools`) holds meta information on each pool created. (hint: Joining this table on `ethereum.erc20_balances` is one way to collect information on TVL, summing the balances of both tokens in the pool.)

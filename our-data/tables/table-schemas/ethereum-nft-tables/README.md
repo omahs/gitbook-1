@@ -5,7 +5,7 @@ description: (BETA)
 # Ethereum NFT Tables
 
 {% hint style="warning" %}
-These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables/) for up-to-date Ethereum models.
 {% endhint %}
 
 We have two NFT tables, currently in phase 1 of beta: nft\_events (mints, sales, etc) and nft\_metadata (token names, images, attributes, etc.). Check out some sample queries [here](https://velocity-app.flipsidecrypto.com/velocity/collections/4d5f21e4-de97-47db-b3c3-c19c27e847c5).

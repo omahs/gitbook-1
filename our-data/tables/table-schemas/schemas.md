@@ -3,7 +3,7 @@
 
 
 {% hint style="warning" %}
-These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables.md) for up-to-date Ethereum models.
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../ethereum-core-tables/) for up-to-date Ethereum models.
 {% endhint %}
 
 Ethereum transactions exist within the `ethereum` schema, as `ethereum.transactions` .

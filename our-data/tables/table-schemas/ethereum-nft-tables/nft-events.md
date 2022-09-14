@@ -1,7 +1,7 @@
 # NFT Events
 
 {% hint style="warning" %}
-These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables.md) for up-to-date Ethereum models.
+These legacy Ethereum tables are deprecated. See [Ethereum Core](../../ethereum-core-tables/) for up-to-date Ethereum models.
 {% endhint %}
 
 NFT Events exists within the `ethereum` schema, as `ethereum.nft_events`

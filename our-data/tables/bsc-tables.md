@@ -23,3 +23,7 @@ Quick Links to Table Docs:
 * ``[`ez_swaps`](https://flipsidecrypto.github.io/bsc-models/#!/model/model.bsc\_models.sushi\_\_ez\_swaps)``
 * ``[`ez_borrowing`](https://cloud.getdbt.com/accounts/1258/runs/77461492/docs/#!/model/model.bsc\_models.sushi\_\_ez\_borrowing)``
 * ``[`ez_lending`](https://cloud.getdbt.com/accounts/1258/runs/77461492/docs/#!/model/model.bsc\_models.sushi\_\_ez\_lending)``
+
+``
+
+Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.hex\_to\_int() function](ethereum-core-tables/function-ethereum.public.udf\_hex\_to\_int.md).

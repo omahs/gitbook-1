@@ -34,3 +34,7 @@ Velodrome
 * [dim\_ _dex_\_ pools](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.sushi\_\_dim\_dex\_pools)
 * [ez\_swaps](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.sushi\_\_ez\_swaps)
 
+
+
+Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.hex\_to\_int() function](ethereum-core-tables/function-ethereum.public.udf\_hex\_to\_int.md).
+
