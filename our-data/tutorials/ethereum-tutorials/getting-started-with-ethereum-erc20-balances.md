@@ -7,7 +7,7 @@ description: >-
 # Getting Started with Ethereum ERC20 Balances
 
 {% hint style="info" %}
-If you're looking for a breakdown of the `ethereum.erc20_balances` table take a look [here](../../tables/table-schemas/daily-erc20-balances.md).
+If you're looking for a breakdown of the `ethereum.erc20_balances` table take a look [here](broken-reference).
 {% endhint %}
 
 In this tutorial, we're going to familiarize ourselves with the ethereum er20 balances table by computing a metric known as Total Value Locked, or TVL for short.

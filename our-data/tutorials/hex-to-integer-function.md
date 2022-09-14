@@ -1,4 +1,10 @@
-# Function: ethereum.public.udf\_hex\_to\_int()
+---
+description: >-
+  A convenience function to convert hex values to integers, useful when working
+  with raw EVM event logs and transactions.
+---
+
+# Hex to Integer Function
 
 **Function name**: ethereum.public.udf\_hex\_to\_int()
 
@@ -42,7 +48,7 @@ We can rearrange the data above to what we see on Etherscan in the screenshot be
 000000000000000000000000b932a70a57673d89f4acffbe830e8ed7f75fb9e0\
 0000000000000000000000000000000000000000000000000000000000001ffb
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-09-14 at 10.33.11 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-09-14 at 10.33.11 AM.png" alt=""><figcaption></figcaption></figure>
 
 We can use the substr function to get the string that is associated with ‘auctionId’.
 
@@ -64,4 +70,4 @@ from ethereum.core.fact_transactions
 
 This would result in 8187 which is consistent with using the decode button on Etherscan as shown in the screenshot below.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-09-14 at 10.33.24 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-09-14 at 10.33.24 AM.png" alt=""><figcaption></figcaption></figure>

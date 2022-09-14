@@ -26,7 +26,7 @@ Data include core tables (blocks, events, transactions) for every chain, with ad
 | [Algorand](../our-data/tables/algorand-tables/)                                   | [Polygon](../our-data/tables/polygon-2.0-tables.md)         |
 | [BSC](../our-data/tables/bsc-tables.md)                                           | [Solana](../our-data/tables/solana-tables.md)               |
 | [Compound](../our-data/tables/compound-tables/)                                   | [Sushi](../our-data/tables/ethereum-sushi-tables.md)        |
-| [Ethereum](../our-data/tables/ethereum-core-tables/)                              | [FLOW](../our-data/tables/flow-tables/)                     |
+| [Ethereum](../our-data/tables/ethereum-tables.md)                                 | [FLOW](../our-data/tables/flow-tables/)                     |
 | [THORChain](../our-data/tables/thorchain-tables/thorchain-base-table/)            | [Gnosis](../our-data/tables/flow-tables/)                   |
 | [Uniswap V3](../our-data/tables/uniswap-v3-tables/)                               |                                                             |
 

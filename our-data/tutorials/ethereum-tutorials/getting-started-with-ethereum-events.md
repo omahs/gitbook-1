@@ -7,7 +7,7 @@ description: This guide will take you thru an introduction of the Ethereum event
 This guide provides an introduction to the `ethereum.udm_events` table via a series of simple queries that explore the data.
 
 {% hint style="info" %}
-For a breakdown of the Ethereum Events table schema [go here.](../../tables/table-schemas/ethereum-events.md)
+For a breakdown of the Ethereum Events table schema [go here.](broken-reference)
 {% endhint %}
 
 Let's familiarize ourselves with the table by first looking at the types of events that can be queried.

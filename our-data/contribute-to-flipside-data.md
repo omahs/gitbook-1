@@ -14,7 +14,7 @@ See [How to Add Tags](https://docs.flipsidecrypto.com/our-data/data-models/tags#
 
 ## Contribute Models with DBT
 
-The Flipside community uses [DBT](https://docs.getdbt.com/) to model data. This section gives a complete overview of getting set up to contribute models with DBT. (Hint: if you know SQL, you're 95% of the way to knowing DBT.) [Avalanche](tables/avalanche-tables.md) and [Ethereum ](tables/ethereum-core-tables/)repositories are setup for community curation.
+The Flipside community uses [DBT](https://docs.getdbt.com/) to model data. This section gives a complete overview of getting set up to contribute models with DBT. (Hint: if you know SQL, you're 95% of the way to knowing DBT.) [Avalanche](tables/avalanche-tables.md) and [Ethereum ](tables/ethereum-tables.md)repositories are setup for community curation.
 
 #### Access
 

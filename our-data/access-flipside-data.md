@@ -59,8 +59,8 @@ Data include core tables (blocks, events, transactions) for every chain, with ad
 | [Astroport](tables/astroport-tables/)                                 | [Polygon 2.0](tables/polygon-2.0-tables.md)                |
 | [BSC](tables/bsc-tables.md)                                           | [Solana](tables/solana-tables.md)                          |
 | [Compound](tables/compound-tables/)                                   | [Sushi](tables/ethereum-sushi-tables.md)                   |
-| [Ethereum (legacy tables)](tables/table-schemas/)                     | [Terra](tables/terra-tables/)                              |
-| [Ethereum Core](tables/ethereum-core-tables/)                         | [Terraswap](tables/terraswap-tables/)                      |
+| [Ethereum (legacy tables)](broken-reference)                          | [Terra](tables/terra-tables/)                              |
+| [Ethereum Core](tables/ethereum-tables.md)                            | [Terraswap](tables/terraswap-tables/)                      |
 | [FLOW](tables/flow-tables/)                                           | [THORChain](tables/thorchain-tables/thorchain-base-table/) |
 | [Gnosis](tables/flow-tables/)                                         | [Uniswap V3](tables/uniswap-v3-tables/)                    |
 
