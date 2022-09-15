@@ -14,9 +14,9 @@ Our data is free and you can access it in your preferred environment.
 
 Almost everyone uses the [Flipside web app](https://flipside.new), our in-browser SQL editor, to explore our data, create visualizations, and publish dashboards.
 
-#### API/SDK
+#### 'ShroomDK' API / SDKs
 
-Developers, analysts, and data scientists use our [REST API with SDKs](https://docs.flipsidecrypto.com/shroomdk-sdk/sdks) for JavaScript, Python, and R, to access our data programmatically.
+Developers, analysts, and data scientists use our [REST API with 'ShroomDK' SDKs](../shroomdk-sdk/getting-started.md) for JavaScript, Python, and R, to access our data programmatically.
 
 #### Data Shares
 
