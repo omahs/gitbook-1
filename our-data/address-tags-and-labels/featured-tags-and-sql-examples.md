@@ -97,9 +97,12 @@ where
 
 Tag\_type 'nft' is a group of tags pertaining to nft usage!
 
-| tag\_name               | description                                                | blockchains |
-| ----------------------- | ---------------------------------------------------------- | ----------- |
-| \[nft marketplace] user | Identifies addresses that use a particular nft marketplace | Ethereum    |
+| tag\_name               | description                                                        | blockchains |
+| ----------------------- | ------------------------------------------------------------------ | ----------- |
+| \[nft marketplace] user | Identifies addresses that use a particular nft marketplace         | Ethereum    |
+| nft transactor top 1%   | addresses that are in the top 1% of transactions involving an nft  | Ethereum    |
+| nft transactor top 5%   | addresses that are in the top 5% of transactions involving an nft  | Ethereum    |
+| nft transactor top 10%  | addresses that are in the top 10% of transactions involving an nft | Ethereum    |
 
 Want to know which marketplace has the most addresses interacting with it? Tags can help you with a simple query:
 
