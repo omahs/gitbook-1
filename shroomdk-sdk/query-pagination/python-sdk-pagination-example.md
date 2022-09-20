@@ -38,10 +38,10 @@ Now, if the number of records are not known, you can do this to dynamically find
 ```
 results = []  # All the results will be added to this list
 
-for i in range(9):  # There will be max 10 pages
+for i in range(10):  # There will be max 10 pages
     query_results = sdk.query(
         sql,
-        page_number=i + 1,
+        page_number=i + 1,  # i starts with 0 but page number count starts with 1.
     )
     if query_results.run_stats.record_count == 0:  # Check whether the resulting page is empty.
         break
