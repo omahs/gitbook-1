@@ -33,6 +33,25 @@ Now if we'd like to access page #2, simply set the `page_number` argument to 2 a
 page_2_results = sdk.query(query, page_size=100, page_number=2)
 ```
 
+Now, if the number of records are not known, you can do this to dynamically find out the number of pages that you have to query.
+
+```
+results = []  # All the results will be added to this list
+
+for i in range(9):  # There will be max 10 pages
+    query_results = sdk.query(
+        sql,
+        page_number=i + 1,
+    )
+    if query_results.run_stats.record_count == 0:  # Check whether the resulting page is empty.
+        break
+
+    results += query_results.records
+```
+
 {% hint style="info" %}
 Updating the `page_number` argument does NOT re-execute the query and therefore does not deduct from your quota. Query results are cached (in accordance with the TTL) up to 1,000,000 records/rows.&#x20;
 {% endhint %}
+
+This query will request the results of a query when the number of returned rows are not known and dynamically find out the number of pages that it has to query.
+
