@@ -52,6 +52,3 @@ for i in range(9):  # There will be max 10 pages
 {% hint style="info" %}
 Updating the `page_number` argument does NOT re-execute the query and therefore does not deduct from your quota. Query results are cached (in accordance with the TTL) up to 1,000,000 records/rows.&#x20;
 {% endhint %}
-
-This query will request the results of a query when the number of returned rows are not known and dynamically find out the number of pages that it has to query.
-
