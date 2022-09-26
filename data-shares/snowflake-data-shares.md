@@ -32,9 +32,12 @@ Data include core tables (blocks, events, transactions) for every chain, with ad
 
 ### How do I request a data share?
 
-To request a data share send an email to data-shares@flipsidecrypto.com with the subject Snowflake Data Share Request.&#x20;
+The **fastest** way to get your data share up and running is to:
 
-To expedite please include your:
+* Login to your Snowflake account and request a share from our [Snowflake Marketplace listing](https://app.snowflake.com/marketplace/listings/Flipside%20Crypto).
+* Are you creating a new Snowflake account?  Choose the US East (N. Virginia) region 'us-east-1'.
+
+You can also email your request to data-shares@flipsidecrypto.com with the subject Snowflake Data Share Request.  To expedite include your:
 
 * Snowflake account identifier (found in your URL e.g. shown in bold here: https://**vna23581**.us-east-1.snowflakecomputing.com...)
 * The name of your organization
@@ -42,7 +45,7 @@ To expedite please include your:
 
 ### How much does this cost?
 
-Access to Snowflake data shares is free, and you only pay for your own Snowflake compute costs (Flipside pays for the storage)
+Access to Snowflake data shares is free, and you only pay for your own Snowflake compute costs (Flipside pays for Snowflake storage).
 
 ### **Questions?**
 
