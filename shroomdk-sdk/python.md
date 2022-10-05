@@ -1,8 +1,4 @@
----
-description: '`pip install shroomdk`'
----
-
-# 🐍 Python SDK
+# Python
 
 [![Python Continuous Testing](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml/badge.svg)](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml)
 
@@ -12,9 +8,11 @@ description: '`pip install shroomdk`'
 
 _If you don't already have an API Key mint one_ [_here_](https://sdk.flipsidecrypto.xyz)_._
 
-```bash
+```
 pip install shroomdk
 ```
+
+####
 
 ### 🦾 Getting Started
 
@@ -48,9 +46,13 @@ for record in query_result_set.records:
     print(f"${nft_address} minted for {mint_price_eth}ETH (${mint_price_usd})")
 ```
 
+####
+
 ### The Details
 
-#### Executing a Query
+
+
+**Executing a Query**
 
 When executing a query the following parameters can be passed into the `query` method on the `ShroomDK` object:
 
@@ -121,7 +123,9 @@ More details on pagination can be found [here](https://docs.flipsidecrypto.com/s
 
 Now let's examine the query result object that's returned.
 
-#### The `QueryResultSet` Object
+
+
+**The `QueryResultSet` Object**
 
 After executing a query the results are stored in a `QueryResultSet` object:
 
@@ -163,23 +167,29 @@ record_count = query_result_set.run_stats.record_count
 print(f"This query took ${elapsed_seconds} seconds to run and returned {record_count} records from the database.")
 ```
 
+####
+
 ### 🚦 Rate Limits
 
 Every API key is subject to a rate limit over a moving 5-minute window, as well as an aggregate daily limit.\
 \
 If the limit is reached in a 5-minute period, the sdk will exponentially back-off and retry the query up to the `timeout_minutes` parameter set when calling the `query` method.
 
+####
+
 ### 🙈 Error Handling
 
 The SDK implements the following errors that can be handled when calling the `query` method:
 
-#### Query Run Time Errors
+
+
+**Query Run Time Errors**
 
 **`QueryRunRateLimitError`**
 
 Occurs when you have exceeded the rate limit for creating/running new queries. Example:
 
-```python
+```
 from shroomdk.errors import QueryRunRateLimitError
 
 try:
@@ -192,7 +202,7 @@ except QueryRunRateLimitError as e:
 
 Occurs when your query has exceeded the `timeout_minutes` parameter passed into the `query` method. Example:
 
-```python
+```
 from shroomdk.errors import QueryRunTimeoutError
 
 try:
@@ -205,7 +215,7 @@ except QueryRunTimeoutError as e:
 
 Occurs when your query fails to compile/run due to malformed SQL statements. Example:
 
-```python
+```
 from shroomdk.errors import QueryRunExecutionError
 
 try:
@@ -214,11 +224,13 @@ except QueryRunExecutionError as e:
     print(f"your sql is malformed: {e.message}")
 ```
 
-#### Server Error
+
+
+**Server Error**
 
 `ServerError` - occurs when there is a server-side error that cannot be resolved. This typically indicates an issue with Flipside Crypto's query engine API. If the issue persists please contact support in the Flipside Crypto discord server.
 
-```python
+```
 from shroomdk.errors import ServerError
 
 try:
@@ -227,11 +239,13 @@ except ServerError as e:
     print(f"a server-side error has occurred: {e.message}")
 ```
 
-#### User Error
+
+
+**User Error**
 
 `UserError` - occurs when you, the user, submit a bad request to the API. This often occurs when an invalid API Key is used and the SDK is unable to authenticate.
 
-```python
+```
 from shroomdk.errors import UserError
 
 try:
@@ -240,11 +254,13 @@ except UserError as e:
     print(f"a user error has occurred: {e.message}")
 ```
 
-#### SDK Error
+
+
+**SDK Error**
 
 `SDKError` - this error is raised when a generic client-side error occurs that cannot be accounted for by the other errors. SDK level errors should be reported [here](https://github.com/FlipsideCrypto/sdk/issues) as a Github Issue with a full stack-trace and detailed steps to reproduce.
 
-```python
+```
 from shroomdk.errors import SDKError
 
 try:

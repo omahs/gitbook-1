@@ -6,17 +6,23 @@ ShroomDK's R package simplifies access to the Flipside Crypto ShroomDK REST API.
 
 ShroomDK API Keys are NFTs on the Ethereum blockchain. They are free to mint (not counting Ethereum gas) and new mints are available each day. Alternatively you can buy the NFT on any NFT Marketplace where listed (e.g., OpenSea).
 
+####
+
 ### How to Install
 
-```r
+```
 library(devtools) # install if you haven't already
 devtools::install_github(repo = 'FlipsideCrypto/sdk', subdir = 'r/shroomDK')
 library(shroomDK)
 ```
 
+
+
 ### 3 Main Functions
 
-#### create\_query\_token()
+
+
+**create\_query\_token()**
 
 Documentation can be viewed within RStudio with `?create_query_token` for new packages you may need to restart R to get to the documentation. It is summarized here:
 
@@ -30,7 +36,7 @@ Documentation can be viewed within RStudio with `?create_query_token` for new pa
 | cache       | Use cached results; set as FALSE to re-execute.                                                                                                                                                                    |
 | Value       | list of `token` and `cached` use `token` in `get_query_from_token()`                                                                                                                                               |
 
-```r
+```
 # example
 create_query_token(
 query = "SELECT * FROM ethereum.core.fact_transactions LIMIT 1",
@@ -39,9 +45,11 @@ ttl = 15,
 cache = TRUE)
 ```
 
-####
 
-#### get\_query\_from\_token()
+
+
+
+**get\_query\_from\_token()**
 
 Documentation can be viewed within RStudio with `?get_query_from_token` for new packages you may need to restart R to get to the documentation. It is summarized here:
 
@@ -55,7 +63,7 @@ Documentation can be viewed within RStudio with `?get_query_from_token` for new 
 | page\_size   | Default 100,000. Paginate via page\_number.                                                                                                                                                                                                                                                                     |
 | Value        | returns a request of length 8: `results`, `columnLabels`, `columnTypes`, `startedAt`, `endedAt`, `pageNumber`, `pageSize`, `status`                                                                                                                                                                             |
 
-```r
+```
 # example
 query = create_query_token("SELECT * FROM ETHEREUM.CORE.FACT_TRANSACTIONS LIMIT 10000", api_key) #gitignore your API key!
 get_query_from_token(query$token, api_key, 1, 10000)
@@ -63,7 +71,7 @@ get_query_from_token(query$token, api_key, 1, 10000)
 
 
 
-#### clean\_query()
+**clean\_query()**
 
 Documentation can be viewed within RStudio with `?clean_query` for new packages you may need to restart R to get to the documentation. It is summarized here:
 
@@ -77,7 +85,7 @@ Documentation can be viewed within RStudio with `?clean_query` for new packages 
 
 Note: The vast majority (95%+) of queries will return a simple data frame with the classes coerced intelligently (e.g., Block\_Number being numeric). But check the warnings and check your column classes, if the class is a list then try\_simplify failed (i.e., not all columns have the same number of rows when coerced).
 
-```r
+```
 #example
 query = create_query_token("SELECT * FROM ETHEREUM.CORE.FACT_TRANSACTIONS LIMIT 10000", api_key)
 request = get_query_from_token(query$token, api_key, 1, 10000)

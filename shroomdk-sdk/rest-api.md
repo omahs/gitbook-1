@@ -2,7 +2,7 @@
 description: Lower-level Direct HTTP Access
 ---
 
-# 🔗 RestAPI
+# REST API
 
 Welcome to the RestAPI Docs for ShroomDK.&#x20;
 
@@ -116,6 +116,6 @@ By default, the endpoint will return up to 100k records.
 
 More details on query pagination here:
 
-{% content-ref url="query-pagination/" %}
-[query-pagination](query-pagination/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

@@ -16,7 +16,7 @@ Almost everyone uses the [Flipside web app](https://flipside.new), our in-browse
 
 #### 'ShroomDK' API / SDKs
 
-Developers, analysts, and data scientists use our [REST API with 'ShroomDK' SDKs](../shroomdk-sdk/getting-started.md) for JavaScript, Python, and R, to access our data programmatically.
+Developers, analysts, and data scientists use our [REST API with 'ShroomDK' SDKs](../shroomdk-sdk/get-started.md) for JavaScript, Python, and R, to access our data programmatically.
 
 #### Data Shares
 

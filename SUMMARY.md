@@ -209,17 +209,14 @@
 
 ## ShroomDK (SDK)
 
-* [🍄 Getting Started](shroomdk-sdk/getting-started.md)
-* [🛠 SDKS](shroomdk-sdk/sdks/README.md)
-  * [Javascript/Typescript](shroomdk-sdk/sdks/javascript-typescript.md)
-  * [🐍 Python SDK](shroomdk-sdk/sdks/python-sdk.md)
-  * [R](shroomdk-sdk/sdks/r.md)
-* [🔗 RestAPI](shroomdk-sdk/restapi.md)
-* [📄 Query Pagination](shroomdk-sdk/query-pagination/README.md)
-  * [JS/TS Pagination Example](shroomdk-sdk/query-pagination/js-ts-pagination-example.md)
-  * [🐍 Python SDK Pagination Example](shroomdk-sdk/query-pagination/python-sdk-pagination-example.md)
-  * [🔗 REST API Pagination Example](shroomdk-sdk/query-pagination/rest-api-pagination-example.md)
-* [🛑 Rate Limits](shroomdk-sdk/rate-limits.md)
+* [🍄 Get Started](shroomdk-sdk/get-started.md)
+* [JavaScript / TypeScript](shroomdk-sdk/javascript-typescript.md)
+* [Python](shroomdk-sdk/python.md)
+* [R](shroomdk-sdk/r.md)
+* [REST API](shroomdk-sdk/rest-api.md)
+* [Examples](shroomdk-sdk/examples.md)
+* [Community Showcase](shroomdk-sdk/community-showcase.md)
+* [Rate Limits](shroomdk-sdk/rate-limits.md)
 
 ## Data Shares
 

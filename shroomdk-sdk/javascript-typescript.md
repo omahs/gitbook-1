@@ -1,20 +1,16 @@
----
-description: '`yarn add @flipsidecrypto/sdk`'
----
+# JavaScript / TypeScript
 
-# Javascript/Typescript
-
-![](https://github.com/flipsidecrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)
+[![](https://github.com/flipsidecrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)](https://github.com/flipsidecrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)
 
 ### 💾 Install the SDK
 
-```bash
+```javascript
 yarn add @flipsidecrypto/sdk
 ```
 
 or if using npm
 
-```bash
+```javascript
 npm install @flipsidecrypto/sdk
 ```
 
@@ -50,9 +46,11 @@ result?.records?.forEach((record) => {
 });
 ```
 
+####
+
 ### The Details
 
-#### The `Query` Object
+**The `Query` Object**
 
 The `Query` object contains both the sql and configuration you can send to the query engine for execution.
 
@@ -99,13 +97,15 @@ const query: Query = {
 
 Now let's execute the query and retrieve the results.
 
-```typescript
+```
 const result: QueryResultSet = await flipside.query.run(query);
 ```
 
 The results of this query will be cached for 60 minutes, given the `ttlMinutes` parameter.
 
-#### The `QueryResultSet` Object
+
+
+**The `QueryResultSet` Object**
 
 After executing a query the results are stored in a `QueryResultSet` object.
 
@@ -148,7 +148,7 @@ Let's iterate over the results from our query above.\
 \
 Our query selected `nft_address`, `mint_price_eth`, and `mint_price_usd`. We can access the returned data via the `records` parameter. The column names in our query are assigned as keys in each record object.
 
-```typescript
+```
 result?.records?.forEach((record) => {
   const nftAddress = record.nft_address
   const mintPriceEth = record.mint_price_eth
@@ -157,25 +157,24 @@ result?.records?.forEach((record) => {
 });
 ```
 
-#### Rate Limits
+
+
+**Rate Limits**
 
 Every API key is subject to a rate limit over a moving 5-minute window, as well as an aggregate daily limit.\
 \
 If the limit is reached in a 5-minute period, the SDK will exponentially backoff and retry the query up to the `timeoutMinutes` parameter set on the `Query` object.\
 \
-This feature is quite useful if leveraging the SDK client-side and your web application sees a large spike in traffic. Rather than using up your daily limit all at once, requests will be smoothed out over the day.\
+This feature is quite useful if leveraging the SDK client-side and your web application sees a large spike in traffic. Rather than using up your daily limit all at once, requests will be smoothed out over the day.y\
 \
 Rate limits can be adjusted per key/use case.
 
-#### Client-Side Request Requirements
+
+
+**Client-Side Request Requirements**
 
 All API Keys correspond to a list of hostnames. Client-side requests that do not originate from the corresponding hostname will fail.
 
 **Pagination**
 
 More details on how pagination works can be found here:
-
-{% content-ref url="../query-pagination/" %}
-[query-pagination](../query-pagination/)
-{% endcontent-ref %}
-
