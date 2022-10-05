@@ -13,7 +13,7 @@ _Add what you're building by submitting a_ [_pull request_](https://github.com/F
 
 ## Data Science & Analytics
 
-| URL                                                                                                                                         | Description                                          | Builder/Analyst                         | Source |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------- | ------ |
-| [NFL All Day Trends](https://jokersden-nflallday-app-j9b8l8.streamlitapp.com/)                                                              | Trends on NFL All Day.                               | [@0x70k3r](https://twitter.com/0x70k3r) |        |
-| [What's going on with Optimism?](https://mirror.xyz/0x6BA168A7cA20eC008F4332d196A2121e198663EA/lNK22UUkF1Dxz9FQKccbrDP9f0Fm73k7rnq2qLALEW0) | A deep dive on Optimism with network analysis plots. | [@0x70k3r](https://twitter.com/0x70k3r) |        |
+| URL                                                                                                                                         | Description                                          | Builder/Analyst                         | Source                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------- | --------------------------------------------------------- |
+| [NFL All Day Trends](https://jokersden-nflallday-app-j9b8l8.streamlitapp.com/)                                                              | Trends on NFL All Day.                               | [@0x70k3r](https://twitter.com/0x70k3r) | Python ([source](https://github.com/jokersden/nflallday)) |
+| [What's going on with Optimism?](https://mirror.xyz/0x6BA168A7cA20eC008F4332d196A2121e198663EA/lNK22UUkF1Dxz9FQKccbrDP9f0Fm73k7rnq2qLALEW0) | A deep dive on Optimism with network analysis plots. | [@0x70k3r](https://twitter.com/0x70k3r) |                                                           |
