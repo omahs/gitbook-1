@@ -32,7 +32,7 @@ You can also query data with our  [REST API](rest-api.md) directly.
 
 ### 3. Get inspired
 
-Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check out SDK [code examples](examples.md), and see what people in the community are [creating](community-showcase.md).
+Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check out SDK [code examples](examples.md), and see what people in our community are [creating](community-showcase.md).
 
 
 
