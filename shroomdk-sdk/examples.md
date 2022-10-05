@@ -1,6 +1,6 @@
 # Examples
 
-_Share a code example with the community by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _for this page or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_._
+_Share a code example with our community by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _for this page or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_._
 
 __
 
