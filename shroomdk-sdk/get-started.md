@@ -6,13 +6,13 @@ description: Your API key to the most comprehensive blockchain data in crypto
 
 Programmatic access to the most comprehensive blockchain data in crypto for analysts, developers, and data scientists.
 
-### Get your API key
+### 1. Get your API key
 
 Go to [https://sdk.flipsidecrypto.xyz ](https://sdk.flipsidecrypto.xyz)to mint your **free** ShroomDK NFT. After minting, your API Key will be revealed and can be plugged into the SDKs / API.
 
 
 
-### Choose your stack
+### 2. Choose your stack
 
 #### SDKs
 
@@ -30,16 +30,20 @@ You can also query data with our  [REST API](rest-api.md) directly.
 
 
 
-### Get inspired
+### 3. Get inspired
 
-Explore Flipside's data in [our web app](https://app.flipsidecrypto.com/), check out [code examples](examples.md), and see what people in the community are [building](community-showcase.md).
+Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check out SDK [code examples](examples.md), and see what people in the community are [creating](community-showcase.md).
 
 
 
-### Start building and connect
+### 4. Connect & create
 
 Introduce yourself :wave: in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions and share what you're working on.
 
 
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### 5. Share
+
+Tag [@flipsidecrypto](https://twitter.com/flipsidecrypto/), share in [Discord](https://discord.gg/ZmU3jQuu6W), and add your work to our [Community Showcase](community-showcase.md) —  apps, data science, advanced analytics — the crypto space wants to see what you're creating.
