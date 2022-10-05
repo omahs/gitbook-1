@@ -1,6 +1,8 @@
 # Community Showcase
 
-_Add what you're building by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _for this page or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_. We encourage you to share links to source code._
+_Apps, data science, advanced analytics — the crypto space wants to see what you're creating._
+
+_Add your work by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _for this page, share in our_ [_Discord_](https://discord.gg/ZmU3jQuu6W) _SDK channels, and tag_ [_@flipsidecrypto_](https://twitter.com/flipsidecrypto/) _so we can_ 📣!
 
 ## Apps
 
