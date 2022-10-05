@@ -177,7 +177,7 @@ _**More Detail with Screenshots: Outline of our Marinade Staking Transaction**_
 
 
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (1).png>)
 
 So now that we understand that Solana transactions are organized into programs, instructions, and inner instructions, it’s clearer to see how our transaction’s data show up in the solana.events table. For example you’ll see a lot of the information from Solscan in this JSON from the INNER\_INSTRUCTIONS column:
 

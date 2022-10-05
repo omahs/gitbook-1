@@ -14,7 +14,7 @@ Go to [https://sdk.flipsidecrypto.xyz ](https://sdk.flipsidecrypto.xyz)to mint y
 
 ### Choose your stack
 
-#### Available SDKs
+#### SDKs
 
 | Language        | Version | Status                                                                                |
 | --------------- | ------- | ------------------------------------------------------------------------------------- |
@@ -32,4 +32,14 @@ You can also query data with our  [REST API](rest-api.md) directly.
 
 ### Get inspired
 
-Explore Flipside's data in [our web app](https://app.flipsidecrypto.com/), check out&#x20;
+Explore Flipside's data in [our web app](https://app.flipsidecrypto.com/), check out [code examples](examples.md), and see what people in the community are [building](community-showcase.md).
+
+
+
+### Start building and connect
+
+Introduce yourself :wave: in the SDK Discord channels, ask questions and share what you're working on.
+
+
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
