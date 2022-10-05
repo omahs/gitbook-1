@@ -38,7 +38,7 @@ Explore Flipside's data in [our web app](https://app.flipsidecrypto.com/), check
 
 ### Start building and connect
 
-Introduce yourself :wave: in the SDK Discord channels, ask questions and share what you're working on.
+Introduce yourself :wave: in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions and share what you're working on.
 
 
 

@@ -1,5 +1,7 @@
 # Examples
 
+_Share a code example with the community by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_._
+
 ### Query Pagination
 
 All query result sets return a maximum of 1,000,000 rows. The entire query result set is cached in accordance with the query’s TTL and subsets can be retrieved by specifying the page size and page number. All without rerunning the initial query and depleting your query run quota.

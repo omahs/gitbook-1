@@ -1,5 +1,7 @@
 # Community Showcase
 
+_Add what you're building by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_. Share your knowledge with links to source code._
+
 ## Apps
 
 | URL                                                                        | Description                                | Builder/Analyst                                                 | Source                                                        |
