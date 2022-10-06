@@ -22,17 +22,17 @@ Go to [https://sdk.flipsidecrypto.xyz ](https://sdk.flipsidecrypto.xyz)to mint y
 | ✅ Python        | 1.0.1   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml/badge.svg) |
 | ✅ R             | 1.0.0   |                                                                                       |
 
-Want a different SDK? Please let us know in [Discord](https://discord.gg/ZmU3jQuu6W). Want to create your own SDK, we'd be happy to showcase it here.
+Want a different SDK? Please let us know in [Discord](https://discord.gg/ZmU3jQuu6W). Want to create your own SDK? we'd be happy to showcase it here.
 
 **REST API**
 
-You can also query data with our  [REST API](rest-api.md) directly.
+You can also query data with our [REST API](rest-api.md) directly.
 
 
 
 ### 3. Get inspired
 
-Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check out SDK [code examples](examples.md), and see what people in the community are [creating](community-showcase.md).
+Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check out SDK [code examples](examples.md), and see what people in our community are [creating](community-showcase.md).
 
 
 
