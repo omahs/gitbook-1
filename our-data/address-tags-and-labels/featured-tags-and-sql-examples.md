@@ -153,18 +153,19 @@ where
 
 Tag\_type 'wallet' is for tags pertaining to the token contents of an address.&#x20;
 
-| tag\_name                        | description                                                                       | blockchains |
-| -------------------------------- | --------------------------------------------------------------------------------- | ----------- |
-| eth billionaire                  | address has an ETH balance of at least $1,000,000,000                             | Ethereum    |
-| eth millionaire                  | address has an ETH balance of at least $1,000,000                                 | Ethereum    |
-| eth top 1%                       | address has an ETH balance in the top 1% of all ETH holders                       | Ethereum    |
-| token billionaire                | address has a non-eth token  balance of at least $1,000,000,000                   | Ethereum    |
-| token millionaire                | address has a non-eth token balance of at least $1,000,000                        | Ethereum    |
-| token top 1%                     | address has a non-eth token balance in the top 1% of all non-eth token holders    | Ethereum    |
-| wallet billionaire               | address has a total wallet (ETH and token) balance of at least $1,000,000,000     | Ethereum    |
-| wallet millionaire               | address has a total wallet (ETH and token) balance of at least $1,000,000         | Ethereum    |
-| wallet top 1%                    | address has a total wallet (ETH and token) balance in the top 1% of all addresses | Ethereum    |
-| vested or locked token recipient | address has received vested/unlocked tokens from a protocol                       | Ethereum    |
+| tag\_name                        | description                                                                                                                 | blockchains |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| airdrop master                   | address is in the top 10% of airdrop recipients based on token value. Value of token is calculated at time of airdrop claim | Ethereum    |
+| eth billionaire                  | address has an ETH balance of at least $1,000,000,000                                                                       | Ethereum    |
+| eth millionaire                  | address has an ETH balance of at least $1,000,000                                                                           | Ethereum    |
+| eth top 1%                       | address has an ETH balance in the top 1% of all ETH holders                                                                 | Ethereum    |
+| token billionaire                | address has a non-eth token  balance of at least $1,000,000,000                                                             | Ethereum    |
+| token millionaire                | address has a non-eth token balance of at least $1,000,000                                                                  | Ethereum    |
+| token top 1%                     | address has a non-eth token balance in the top 1% of all non-eth token holders                                              | Ethereum    |
+| wallet billionaire               | address has a total wallet (ETH and token) balance of at least $1,000,000,000                                               | Ethereum    |
+| wallet millionaire               | address has a total wallet (ETH and token) balance of at least $1,000,000                                                   | Ethereum    |
+| wallet top 1%                    | address has a total wallet (ETH and token) balance in the top 1% of all addresses                                           | Ethereum    |
+| vested or locked token recipient | address has received vested/unlocked tokens from a protocol                                                                 | Ethereum    |
 
 Using wallet type in combination with some other tags can yield more interesting results. For example, let look at what nft platforms wallet millionaires use:
 
