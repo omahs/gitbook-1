@@ -151,6 +151,8 @@ Retrieve all records up to the 1,000,000 row limit.
 
 {% tabs %}
 {% tab title="Python" %}
+**All Results in List** _via_ [_jokersden_](https://github.com/jokersden)__
+
 If the number of records are not known, you can do this to dynamically find out the number of pages that you have to query.
 
 
@@ -169,6 +171,55 @@ for i in range(10):  # There will be max 10 pages at default 100k per page & 1M 
 
 ```
 
-_via_ [_jokersden_](https://github.com/jokersden)__
+__
+
+****\
+**All Results to Pandas DataFrame** via [0xdatawolf](https://www.twitter.com/0xdatawolf)
+
+```python
+from shroomdk import ShroomDK
+import pandas as pd
+
+def querying_pagination(query_string):
+    sdk = ShroomDK('<YOUR API KEY>')
+    
+    # Query results page by page and saves the results in a list
+    # If nothing is returned then just stop the loop and start adding the data to the dataframe
+    result_list = []
+    for i in range(1,11): # max is a million rows @ 100k per page
+        data=sdk.query(query_string,page_size=100000,page_number=i)
+        if data.run_stats.record_count == 0:  
+            break
+        else:
+            result_list.append(data.records)
+        
+    # Loops through the returned results and adds into a pandas dataframe
+    result_df=pd.DataFrame()
+    for idx, each_list in enumerate(result_list):
+        if idx == 0:
+            result_df=pd.json_normalize(each_list)
+        else:
+            result_df=pd.concat([result_df, pd.json_normalize(each_list)])
+
+    return result_df
+
+
+Copy and paste the above function. Then you can write a query string like this
+
+```
+
+Copy and paste the above function. Then you can write a query string like this:\
+
+
+```python
+
+df_query="""
+    SELECT 
+        *
+    FROM  ethereum.core.ez_nft_sales
+    WHERE block_timestamp >= CURRENT_DATE() - 60
+"""
+df = querying_pagination(df_query)
+```
 {% endtab %}
 {% endtabs %}
