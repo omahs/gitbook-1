@@ -161,6 +161,7 @@
       * [Total Value Locked](our-data/tables/thorchain-tables/thorchain-base-table/total-value-locked.md)
       * [Transfers](our-data/tables/thorchain-tables/thorchain-base-table/transfers.md)
       * [Upgrades](our-data/tables/thorchain-tables/thorchain-base-table/upgrades.md)
+    * [Thorchain Core Tables](our-data/tables/thorchain-tables/thorchain-core-tables.md)
   * [Uniswap V3 Tables](our-data/tables/uniswap-v3-tables/README.md)
     * [Pools](our-data/tables/uniswap-v3-tables/pools.md)
     * [Pool Stats](our-data/tables/uniswap-v3-tables/pool-stats.md)
