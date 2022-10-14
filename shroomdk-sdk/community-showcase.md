@@ -6,12 +6,13 @@ _Add your work by submitting a_ [_pull request_](https://github.com/FlipsideCryp
 
 ## Apps
 
-| URL                                                                        | Description                                | Builder/Analyst                                                 | Source                                                        |
-| -------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Flowverse NFT Stats](https://nft.flowverse.co/stats)                      | NFT statistics by Flowverse on Flow.       | [@flowverse\_](https://twitter.com/flowverse\_)                 |                                                               |
-| [Eth Activity Timecard](https://science.flipsidecrypto.xyz/eth-timecard/)  | Visualize your Ethereum on chain activity. | [@charliemarketplace.eth](https://twitter.com/charliemktplace)  | R ([source](https://github.com/FlipsideCrypto/eth\_activity)) |
-| [Gaia Governor](https://app.gaiagovernor.com/)                             | Aggregated Snapshot voting dashboard.      | [@gaiagovernor](https://twitter.com/gaiagovernor)               |                                                               |
-| [AAVE Explorer](https://aave-explorer.vercel.app/)                         | AAVE stats and transaction explorer.       | [@a\_idria](https://twitter.com/a\_idria)                       | React ([source](https://github.com/akbaridria/aave-explorer)) |
+| URL                                                                        | Description                                | Builder/Analyst                                                                      | Source                                                              |
+| -------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| [Flowverse NFT Stats](https://nft.flowverse.co/stats)                      | NFT statistics by Flowverse on Flow.       | [@flowverse\_](https://twitter.com/flowverse\_)                                      |                                                                     |
+| [OpenBB Terminal](https://openbb.co/)                                      | Open source investment research terminal   | [contributors](https://github.com/OpenBB-finance/OpenBBTerminal/graphs/contributors) | Python ([source](https://github.com/OpenBB-finance/OpenBBTerminal)) |
+| [Eth Activity Timecard](https://science.flipsidecrypto.xyz/eth-timecard/)  | Visualize your Ethereum on chain activity. | [@charliemarketplace.eth](https://twitter.com/charliemktplace)                       | R ([source](https://github.com/FlipsideCrypto/eth\_activity))       |
+| [Gaia Governor](https://app.gaiagovernor.com/)                             | Aggregated Snapshot voting dashboard.      | [@gaiagovernor](https://twitter.com/gaiagovernor)                                    |                                                                     |
+| [AAVE Explorer](https://aave-explorer.vercel.app/)                         | AAVE stats and transaction explorer.       | [@a\_idria](https://twitter.com/a\_idria)                                            | React ([source](https://github.com/akbaridria/aave-explorer))       |
 
 ## Data Science & Analytics
 

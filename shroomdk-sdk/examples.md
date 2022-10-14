@@ -6,11 +6,16 @@ __
 
 #### Contents
 
-| Basic Examples                                                                     |
+| Basic Code Examples                                                                |
 | ---------------------------------------------------------------------------------- |
 | [Query Pagination](examples.md#query-pagination)                                   |
 | [Query Pagination - Get All Records](examples.md#query-pagination-get-all-records) |
 |                                                                                    |
+
+| Templates & Walkthroughs                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------- |
+| [Basic React App](https://github.com/FlipsideCrypto/sdk/tree/main/examples/js/react-app)                            |
+| [Python Notebook - SDK Intro & Features](https://github.com/FlipsideCrypto/sdk/tree/main/examples/python/notebooks) |
 
 ### Query Pagination
 

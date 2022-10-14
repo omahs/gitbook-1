@@ -4,7 +4,7 @@ description: Your API key to the most comprehensive blockchain data in crypto
 
 # 🍄 Get Started
 
-Programmatic access to the most comprehensive blockchain data in crypto for analysts, developers, and data scientists.
+Get access to the most comprehensive blockchain data in crypto for analysts, developers, and data scientists.
 
 ### 1. Get your API key
 
@@ -40,9 +40,9 @@ Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check o
 
 Introduce yourself :wave: in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions and share what you're working on.
 
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Share
 

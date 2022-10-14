@@ -168,7 +168,7 @@ _**More Detail with Screenshots: Outline of our Marinade Staking Transaction**_
 
 * program: <mark style="background-color:red;">Marinade Finance - MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD</mark>
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 *   instruction 1: <mark style="background-color:red;">Deposit</mark>
 
