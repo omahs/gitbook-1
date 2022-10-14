@@ -4,6 +4,8 @@
 
 `crosschain.core.address_tags`
 
+Also learn more about tags [here](../../address-tags-and-labels/).
+
 | Field       | Type      | Description                                                            |
 | ----------- | --------- | ---------------------------------------------------------------------- |
 | blockchain  | string    | The name of the blockchain.                                            |

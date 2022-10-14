@@ -4,6 +4,8 @@
 
 `crosschain.address_labels`
 
+Also learn more about labels [here](../../address-tags-and-labels/).
+
 | Field               | Type      | Description                                                                |
 | ------------------- | --------- | -------------------------------------------------------------------------- |
 | system\_created\_at | timestamp | The time when the label was sent to the table.                             |

@@ -17,5 +17,7 @@ Check out our labels.\
 
 * [Featured Tags & SQL Examples](featured-tags-and-sql-examples.md)
 * [How to Add Your Own Tags](how-to-add-your-own-tags.md)
+* ``[`crosschain.core.address_tags` table docs](../tables/crosschain-tables/crosschain-address-tags.md)
 * [Labels](labels/)
+* ``[`crosschain.core.address_labels` table docs](../tables/crosschain-tables/crosschain-address-labels.md)
 
