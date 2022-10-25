@@ -57,6 +57,7 @@
     * [Fact Hourly Prices](our-data/tables/crosschain-tables/fact-hourly-prices.md)
     * [Dim Asset Metadata](our-data/tables/crosschain-tables/dim-asset-metadata.md)
     * [Dim Dates](our-data/tables/crosschain-tables/dim-dates.md)
+    * [Dim Date Hours](our-data/tables/crosschain-tables/dim-date-hours.md)
     * [Crosschain Address Labels](our-data/tables/crosschain-tables/crosschain-address-labels.md)
     * [Crosschain Address Tags](our-data/tables/crosschain-tables/crosschain-address-tags.md)
   * [Ethereum Tables](our-data/tables/ethereum-tables.md)
