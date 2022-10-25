@@ -36,11 +36,15 @@ The current Solana table schemas build concepts laid out in [Flipside's event da
 
 [Solana Fact Swaps](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_swaps)
 
+[Solana Fact Token Prices Hourly](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_token\_prices\_hourly)
+
 [Solana Fact Transactions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_transactions)
 
 [Solana Fact Transfers](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_transfers)
 
-[Solana Fact Votes Agg Blocks](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_votes\_agg\_block)&#x20;
+[Solana Fact Votes Agg Blocks](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_votes\_agg\_block) &#x20;
+
+
 
 #### What we have:
 
