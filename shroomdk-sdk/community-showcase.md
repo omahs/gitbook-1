@@ -14,6 +14,7 @@ _Add your work by submitting a_ [_pull request_](https://github.com/FlipsideCryp
 | [Gaia Governor](https://app.gaiagovernor.com/)                                                                     | Aggregated Snapshot voting dashboard.              | [@gaiagovernor](https://twitter.com/gaiagovernor)                                    |                                                                                   |
 | [AAVE Explorer](https://aave-explorer.vercel.app/)                                                                 | <p>AAVE stats and </p><p>transaction explorer.</p> | [@a\_idria](https://twitter.com/a\_idria)                                            | React ([source](https://github.com/akbaridria/aave-explorer))                     |
 | [Osmosis Liquidity Whales](https://jordiruspira-osmosis-liquidity-providers-osmosis-lprs-78acun.streamlitapp.com/) | Explore top liquidity providers and LP holdings    | [@RuspiTorpi](https://twitter.com/RuspiTorpi/)                                       | Python ([source](https://github.com/jordiruspira/osmosis\_liquidity\_providers/)) |
+| [Thorsight](https://thorsight.playwo.de/)                                                                          | Track your ThorChain LP positions performance      | [@Playwo](https://twitter.com/Playwo_)                                               | C# & Angular ([source](https://github.com/PoolPirate/Thorsight))                  |
 
 ## Data Science & Analytics
 
