@@ -30,6 +30,7 @@ Flipside community data include schemas for:
 | [Ethereum Core](ethereum-tables.md)                            | [Terraswap](terraswap-tables/)                      |
 | [FLOW](flow-tables/)                                           | [THORChain](thorchain-tables/thorchain-base-table/) |
 | [Gnosis](flow-tables/)                                         | [Uniswap V3](uniswap-v3-tables/)                    |
+| [Axelar](axelar-tables.md)                                     |                                                     |
 
 
 

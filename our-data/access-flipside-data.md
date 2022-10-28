@@ -63,6 +63,7 @@ Data include core tables (blocks, events, transactions) for every chain, with ad
 | [Ethereum Core](tables/ethereum-tables.md)                            | [Terraswap](tables/terraswap-tables/)                      |
 | [FLOW](tables/flow-tables/)                                           | [THORChain](tables/thorchain-tables/thorchain-base-table/) |
 | [Gnosis](tables/flow-tables/)                                         | [Uniswap V3](tables/uniswap-v3-tables/)                    |
+| [Axelar](tables/axelar-tables.md)                                     |                                                            |
 
 Want to dive deeper? Use the [Flipside web app](https://flipside.new) to explore a specific data schema, or use the search bar at the top of our [Discover](https://flipsidecrypto.xyz/discover/dashboards) page to see trending analyses.
 
