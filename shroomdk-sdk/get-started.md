@@ -20,7 +20,7 @@ Go to [https://sdk.flipsidecrypto.xyz ](https://sdk.flipsidecrypto.xyz)to mint y
 | --------------- | ------- | ------------------------------------------------------------------------------------- |
 | ✅ JS/TypeScript | 1.1.0   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)     |
 | ✅ Python        | 1.0.1   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml/badge.svg) |
-| ✅ R             | 1.0.0   |                                                                                       |
+| ✅ R             | 0.1.1   |                                                                                       |
 
 Want a different SDK? Please let us know in [Discord](https://discord.gg/ZmU3jQuu6W). Want to create your own SDK? we'd be happy to showcase it here.
 
@@ -40,7 +40,7 @@ Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check o
 
 Introduce yourself :wave: in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions and share what you're working on.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
