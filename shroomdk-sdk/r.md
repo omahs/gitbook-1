@@ -1,3 +1,7 @@
+---
+description: The R programming language is a great fit for analysis of flipsidecrypto data!
+---
+
 # R
 
 ShroomDK's R package simplifies access to the Flipside Crypto ShroomDK REST API. More details on ShroomDK available at [sdk.flipsidecrypto.xyz/shroomdk](https://sdk.flipsidecrypto.xyz/shroomdk).
@@ -6,21 +10,45 @@ ShroomDK's R package simplifies access to the Flipside Crypto ShroomDK REST API.
 
 ShroomDK API Keys are NFTs on the Ethereum blockchain. They are free to mint (not counting Ethereum gas) and new mints are available each day. Alternatively you can buy the NFT on any NFT Marketplace where listed (e.g., OpenSea).
 
-####
-
 ### How to Install
 
 ```
+# available on CRAN
+install.packages("shroomDK")
+library(shroomDK)
+
+# Latest developments available on Github
 library(devtools) # install if you haven't already
 devtools::install_github(repo = 'FlipsideCrypto/sdk', subdir = 'r/shroomDK')
 library(shroomDK)
 ```
 
+## Auto Paginate Query
 
+**auto\_paginate\_query()**\
+****\
+****The easiest way to use shroomDK is to simply auto paginate a query to return (up to) 1 Million rows in 1 function call. This function will attempt to report useful errors and warnings; but if results are not as expected, follow the traditional create\_query\_token() %>% get\_query\_from\_token() %>% clean\_query() pipeline.\
+\
+Documentation can be viewed within RStudio with `?auto_paginate_query` for new packages you may need to restart R to get to the documentation. It is summarized here:
 
-### 3 Main Functions
+| Item        | Definition                                                                                                |
+| ----------- | --------------------------------------------------------------------------------------------------------- |
+| Description | Grabs up to `maxrows` in a query by going through each page 100k rows at a time.                          |
+| Usage       | auto\_paginate\_query(query, api\_key)                                                                    |
+| query       | Flipside Crypto Snowflake SQL compatible query as a string.                                               |
+| api\_key    | Flipside Crypto ShroomDK API Key                                                                          |
+| maxrows     | Flipside Crypto ShroomDK maximum rows in query, default 1,000,000                                         |
+| value       | <p>data frame of up to 1M rows, <br>see ?<code>clean_query</code> for more details on  column classes</p> |
 
+For detailed examples using exclusively auto\_paginate\_query() see the [Examples](examples.md).
 
+```
+# example
+auto_paginate_query(query = "SELECT * FROM ethereum.core.fact_transactions LIMIT 1", 
+api_key = readLines("api_key.txt")
+```
+
+### Core Functions
 
 **create\_query\_token()**
 
