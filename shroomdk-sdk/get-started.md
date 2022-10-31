@@ -18,8 +18,8 @@ Go to [https://sdk.flipsidecrypto.xyz ](https://sdk.flipsidecrypto.xyz)to mint y
 
 | Language        | Version | Status                                                                                |
 | --------------- | ------- | ------------------------------------------------------------------------------------- |
-| ✅ JS/TypeScript | 1.1.0   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)     |
-| ✅ Python        | 1.0.1   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml/badge.svg) |
+| ✅ JS/TypeScript | 1.1.1   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)     |
+| ✅ Python        | 1.0.2   | ![](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml/badge.svg) |
 | ✅ R             | 0.1.1   |                                                                                       |
 
 Want a different SDK? Please let us know in [Discord](https://discord.gg/ZmU3jQuu6W). Want to create your own SDK? we'd be happy to showcase it here.
