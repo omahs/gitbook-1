@@ -61,6 +61,7 @@
     * [Crosschain Address Labels](our-data/tables/crosschain-tables/crosschain-address-labels.md)
     * [Crosschain Address Tags](our-data/tables/crosschain-tables/crosschain-address-tags.md)
   * [Ethereum Tables](our-data/tables/ethereum-tables.md)
+  * [Ethereum Beacon Chain Tables](our-data/tables/ethereum-beacon-chain-tables.md)
   * [Ethereum Maker DAO Tables](our-data/tables/ethereum-maker-dao-tables.md)
   * [Ethereum Sushi Tables](our-data/tables/ethereum-sushi-tables.md)
   * [FLOW Tables](our-data/tables/flow-tables/README.md)
