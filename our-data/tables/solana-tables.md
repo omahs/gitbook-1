@@ -36,6 +36,8 @@ The current Solana table schemas build concepts laid out in [Flipside's event da
 
 [Solana Fact Staking/LP Actions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_staking\_lp\_actions)
 
+[Solana Fact Stake Pool Actions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_stake\_pool\_actions)
+
 [Solana Fact Swaps](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_swaps)
 
 [Solana Fact Token Prices Hourly](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_token\_prices\_hourly)
