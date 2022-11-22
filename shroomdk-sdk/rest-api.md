@@ -116,6 +116,6 @@ By default, the endpoint will return up to 100k records.
 
 More details on query pagination here:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="examples.md" %}
+[examples.md](examples.md)
 {% endcontent-ref %}
