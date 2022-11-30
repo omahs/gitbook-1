@@ -15,8 +15,7 @@ Quick Links to Table Docs:
 * ``[`fact_token_transfers`](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.core\_\_fact\_token\_transfers)``
 * ``[`dim_labels`](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.core\_\_dim\_labels)``
 * ``[`ez_eth_transfers`](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.core\_\_ez\_eth\_transfers)``
-
-``
+* ``[`dim_contracts`](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.core\_\_dim\_contracts)``
 
 Arbitrum sushi tables
 

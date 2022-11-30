@@ -15,6 +15,7 @@ Quick Links to Table Docs:
 * &#x20;[`fact_token_transfers`](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.core\_\_fact\_token\_transfers)
 * ``[`dim_labels`](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.core\_\_dim\_labels)``
 * ``[`ez_avax_transfers`](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.core\_\_ez\_avax\_transfers)``
+* ``[`dim_contracts`](https://flipsidecrypto.github.io/avalanche-models/#!/model/model.avalanche\_models.core\_\_dim\_contracts)``
 
 `Sushi specific tables:`
 

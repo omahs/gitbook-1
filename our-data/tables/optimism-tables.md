@@ -16,6 +16,7 @@ Quick Links to Table Docs:
 * [`dim_labels`](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.core\_\_dim\_labels)
 * ``[`dim_contracts`](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.core\_\_dim\_contracts)``
 * ``[`ez_eth_transfers`](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.core\_\_ez\_eth\_transfers)
+* ``[`dim_contracts`](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.core\_\_dim\_contracts)``
 
 Velodrome
 
