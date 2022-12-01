@@ -69,6 +69,7 @@
     * [Bridge Transactions](our-data/tables/flow-tables/bridge-transactions.md)
     * [Contract Labels](our-data/tables/flow-tables/contract-labels.md)
     * [Events](our-data/tables/flow-tables/events.md)
+    * [Moment Metadata](our-data/tables/flow-tables/moment-metadata.md)
     * [NFT Sales](our-data/tables/flow-tables/nft-sales.md)
     * [Prices](our-data/tables/flow-tables/prices.md)
     * [Swaps](our-data/tables/flow-tables/swaps.md)

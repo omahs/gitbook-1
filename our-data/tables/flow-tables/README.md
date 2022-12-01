@@ -32,6 +32,10 @@ The following pages offer quick documentation with details around the schema, an
 [events.md](events.md)
 {% endcontent-ref %}
 
+{% content-ref url="moment-metadata.md" %}
+[moment-metadata.md](moment-metadata.md)
+{% endcontent-ref %}
+
 {% content-ref url="nft-sales.md" %}
 [nft-sales.md](nft-sales.md)
 {% endcontent-ref %}
