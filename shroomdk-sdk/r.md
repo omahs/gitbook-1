@@ -45,7 +45,9 @@ For detailed examples using exclusively auto\_paginate\_query() see the [Example
 ```
 # example
 auto_paginate_query(query = "SELECT * FROM ethereum.core.fact_transactions LIMIT 1", 
-api_key = readLines("api_key.txt")
+                    api_key = readLines("api_key.txt")
+                    )
+
 ```
 
 ### Core Functions
