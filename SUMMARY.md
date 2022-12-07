@@ -53,6 +53,7 @@
     * [Liquidations](our-data/tables/compound-tables/liquidations.md)
     * [Borrows](our-data/tables/compound-tables/borrows.md)
     * [Market Stats](our-data/tables/compound-tables/market-stats.md)
+  * [Cosmos Tables](our-data/tables/cosmos-tables.md)
   * [Crosschain Tables](our-data/tables/crosschain-tables/README.md)
     * [Fact Hourly Prices](our-data/tables/crosschain-tables/fact-hourly-prices.md)
     * [Dim Asset Metadata](our-data/tables/crosschain-tables/dim-asset-metadata.md)
