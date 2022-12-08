@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-osmosis.fact\_governance\_votes
+`osmosis.core.fact_governance_votes`
 
 | Field            | Type      | Description                                                                                      |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------ |

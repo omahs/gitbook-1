@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.dim_prices`
+`osmosis.core.dim_prices`
 
 Three different sources are used to create this prices table. Coingecko, Coinmarketcap, and the swaps table. When using prices from the swaps table, please note that prices calculated during hours with low transaction volumes and / or a low number of swaps may be incorrect.&#x20;
 

@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.fact_transactions`
+`osmosis.core.fact_transactions`
 
 | Field            | Type      | Field                                                                                            |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------ |

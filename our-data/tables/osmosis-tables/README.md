@@ -28,6 +28,8 @@ The Osmosis tables are built on Osmosis transaction and messages information.&#x
 
 [Dim Labels ](osmosis-dim-labels.md)
 
+[Dim Liquidity Pools](osmosis-dim-liquidity-pools.md)
+
 [Fact Liquidity Provider Actions](osmosis-fact-liquidity-provider-actions.md)&#x20;
 
 [Fact Msg Attributes](osmosis-fact-msg-attributes-table.md)
@@ -40,11 +42,19 @@ The Osmosis tables are built on Osmosis transaction and messages information.&#x
 
 [Fact Staking](osmosis-fact-staking.md)
 
+[Fact Superfluid Staking](osmosis-fact-superfluid-staking.md)
+
 [Fact Swaps](osmosis-fact-swaps.md)
+
+[Dim Tokens](osmosis-dim-tokens.md)
 
 [Fact Transactions](osmosis-fact-transactions-table.md)
 
 [Fact Transfers](osmosis-fact-transfers.md)
+
+[Fact Validators](osmosis-fact-validators.md)
+
+[Dim Vote Options](osmosis-dim-vote-options.md)
 
 #### What we have:
 

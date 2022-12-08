@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.fact_swaps`
+`osmosis.core.fact_swaps`
 
 | Field            | Type      | Description                                                                                      |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------ |

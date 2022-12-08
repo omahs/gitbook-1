@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.fact_governance_proposal_deposits`
+`osmosis.core.fact_governance_proposal_deposits`
 
 After a proposal on Osmosis is submitted, it is required that at least 500 OSMO be deposited into the proposal over a two week timeframe.&#x20;
 

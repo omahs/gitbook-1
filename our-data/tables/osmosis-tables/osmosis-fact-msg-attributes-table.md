@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.fact_msg_attributes`
+`osmosis.core.fact_msg_attributes`
 
 | Field            | Type      | Descriptions                                                                                     |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------ |

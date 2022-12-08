@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.fact_airdrops`
+`osmosis.core.fact_airdrops`
 
 | Field            | Type      | Field                                                                                            |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------ |

@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-osmosis.fact\_governance\_submit\_proposal
+`osmosis.core.fact_governance_submit_proposal`
 
 | Field            | Type      | Description                                                                                           |
 | ---------------- | --------- | ----------------------------------------------------------------------------------------------------- |

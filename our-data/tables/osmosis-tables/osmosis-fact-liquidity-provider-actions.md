@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-osmosis.fact\_liquidity\_provider\_actions
+`osmosis.core.fact_liquidity_provider_actions`
 
 | Field                        | Type      | Description                                                                                          |
 | ---------------------------- | --------- | ---------------------------------------------------------------------------------------------------- |

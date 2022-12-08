@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.dim_labels`
+`osmosis.core.dim_labels`
 
 | Field          | Type   | Description                                                                                     |
 | -------------- | ------ | ----------------------------------------------------------------------------------------------- |

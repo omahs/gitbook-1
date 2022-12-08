@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.fact_staking_rewards`
+`osmosis.core.fact_staking_rewards`
 
 | Field               | Type      | Description                                                                                      |
 | ------------------- | --------- | ------------------------------------------------------------------------------------------------ |

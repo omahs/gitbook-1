@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.dim_vote_options`
+`osmosis.core.dim_vote_options`
 
 Join this table to `osmosis.fact_governance_votes` on `vote_option = vote_id`
 

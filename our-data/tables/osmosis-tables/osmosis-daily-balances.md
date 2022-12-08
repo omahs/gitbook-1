@@ -2,7 +2,7 @@
 
 ### Table Schema
 
-`osmosis.daily_balances`
+`osmosis.core.daily_balances`
 
 This table is currently under development and will release in the Velocity App soon. This table only includes balances for addresses that are actively staking or providing liquidity to a liquidity pool. If an address is not doing either of these actions on a given date, it will not be represented in the table on that date.&#x20;
 
