@@ -49,20 +49,9 @@ The Osmosis tables are built on Osmosis transaction and messages information.&#x
 #### What we have:
 
 * All on-chain Osmosis events dating back to the genesis block in June 2021.&#x20;
-* Labels for all available tokens on the Osmosis app and Osmosis validators.
+* Labels for all available tokens and liquidity pools on the Osmosis app and Osmosis validators.
 
 #### What we don't have:&#x20;
 
 * Data related to pool APY, as this is not available on chain.&#x20;
 * Some labels & decimals for LP tokens and low market cap tokens.&#x20;
-*   The raw transaction log and information only available in the raw transaction log, including:&#x20;
-
-    * Superfluid Staking
-    * Transaction Types for failed transactions
-
-    Note: We are currently backfilling the raw transaction logs into our tables and will include this information as it becomes available.&#x20;
-
-#### What is in the works:&#x20;
-
-* A balances table.&#x20;
-* Additional labels sourcing for pools, etc.&#x20;
