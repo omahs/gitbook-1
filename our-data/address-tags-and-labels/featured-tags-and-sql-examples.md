@@ -39,7 +39,8 @@ from crosschain.core.address_tags
 where 
     tag_type = 'contract' 
     and tag_name = 'contract address'
-    and creator = 'flipside'</code></pre>
+    and creator = 'flipside'
+</code></pre>
 
 [back to top](featured-tags-and-sql-examples.md#table-of-contents)
 
@@ -125,9 +126,9 @@ order by num_addresses desc
 
 Tag\_type 'activity' is for tags that describe an address's activity. General tags that are not protocol specific!
 
-| tag\_name                      | description                                                                  | blockchains                                           |
-| ------------------------------ | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
-| active on \[blockchain] last 7 | identifies an address that has sent at least 1 transaction on a blockchain.  | Arbitrum, Avalanche, Bsc, Ethereum, Optimism, Polygon |
+| tag\_name                      | description                                                                                     | blockchains                                           |
+| ------------------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| active on \[blockchain] last 7 | identifies an address that has sent at least 1 transaction on a blockchain in the last 7 days.  | Arbitrum, Avalanche, Bsc, Ethereum, Optimism, Polygon |
 
 There are many use cases for an active tag! A simple one is to see what other EVM's an address is active on.\
 Here is a query to see addresses that are active on both Ethereum and Arbitrum:
@@ -145,7 +146,8 @@ from crosschain.core.address_tags
 where 
     tag_name = 'active on arbitrum last 7'
     and address in (select distinct address from eth_addresses)
-    and creator = 'flipside'</code></pre>
+    and creator = 'flipside'
+</code></pre>
 
 [back to top](featured-tags-and-sql-examples.md#table-of-contents)
 
