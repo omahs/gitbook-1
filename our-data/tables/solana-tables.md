@@ -14,7 +14,11 @@ The current Solana table schemas build concepts laid out in [Flipside's event da
 
 [Solana Dim Labels](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_dim\_labels)
 
+[Solan Dim Tokens](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_dim\_tokens)
+
 [Solana EZ Signers](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_ez\_signers)
+
+[Solan EZ Token Prices Hourly](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_ez\_token\_prices\_hourly)
 
 [Solana Fact Blocks](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_blocks)
 
