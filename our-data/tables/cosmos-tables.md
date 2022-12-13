@@ -6,6 +6,10 @@
 
 The Cosmos schema is currently in lite mode. All block, transaction, and message data is available back to the genesis block. However, no easy or curated tables are currently available.&#x20;
 
+[Dim Labels](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_dim\_labels)
+
+[Dim Tokens](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_dim\_tokens)
+
 [Fact Blocks](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_fact\_blocks)
 
 [Fact Transactions](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_fact\_transactions)
@@ -15,3 +19,5 @@ The Cosmos schema is currently in lite mode. All block, transaction, and message
 [Fact Msg Attributes](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_fact\_msg\_attributes)
 
 [Fact Transfers](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_fact\_transfers)
+
+[Fact Validators](https://flipsidecrypto.github.io/cosmos-models/#!/model/model.cosmos\_models.core\_\_fact\_validators)
