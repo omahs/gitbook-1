@@ -8,6 +8,8 @@ The Axelar tables are currently in lite mode. All transaction and message data i
 \
 [Dim Labels](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_dim\_labels)
 
+[Dim Tokens](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_dim\_tokens)
+
 [Fact Blocks](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_blocks)
 
 [Fact Msg Attributes](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_msg\_attributes)
@@ -17,3 +19,5 @@ The Axelar tables are currently in lite mode. All transaction and message data i
 [Fact Transactions](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_transactions)
 
 [Fact Transfers](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_transfers)
+
+[Fact Validators](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_validators)
