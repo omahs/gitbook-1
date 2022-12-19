@@ -18,7 +18,7 @@ The Flipside community uses [DBT](https://docs.getdbt.com/) to model data. This 
 
 #### Access
 
-**Snowflake (ask in #community-curation-beta discord channel)**
+**Snowflake (ask in #community-curation)**
 
 "Hi , I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>"`
 
