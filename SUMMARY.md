@@ -5,7 +5,6 @@
 ## Our Data
 
 * [Access Flipside Data](our-data/access-flipside-data.md)
-* [Contribute to Flipside Data](our-data/contribute-to-flipside-data.md)
 * [Tables](our-data/tables/README.md)
   * [AAVE Tables](our-data/tables/aave-tables/README.md)
     * [Market Stats](our-data/tables/aave-tables/market-stats.md)
@@ -217,6 +216,15 @@
 * [Getting Started with the Flipside App](velocity/getting-started-with-the-flipside-app.md)
 * [Parameterized Queries](velocity/parameterized-queries.md)
 * [Query Editor Shortcuts](velocity/query-editor-shortcuts.md)
+
+## Contribute to Our Data <a href="#contribute" id="contribute"></a>
+
+* [Community Curation](contribute/contribute-to-flipside-data.md)
+* [Model Standards](contribute/model-standards/README.md)
+  * [dbt Tips](contribute/model-standards/dbt-tips.md)
+* [Getting Started](contribute/getting-started/README.md)
+  * [Contribution Workflow](contribute/getting-started/contribution-workflow.md)
+* [PR Checklist](contribute/pr-checklist.md)
 
 ## ShroomDK (SDK)
 

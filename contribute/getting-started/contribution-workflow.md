@@ -1,65 +1,11 @@
----
-description: A guide to data curation with Flipside.
----
+# Contribution Workflow
 
-# Contribute to Flipside Data
+\[ this workflow will be actively updated and enhanced as we receive feedback ]
 
-## Public Data Models
-
-Links to the public Github repos for all data model source code can be found in the [table docs](tables/) for each blockchain/blockchain project.
-
-## Contribute Tags & Labels
-
-See [How to Add Tags](https://docs.flipsidecrypto.com/our-data/data-models/tags#how-to-add-tags) on the Tags data model page.
-
-## Contribute Models with DBT
-
-The Flipside community uses [DBT](https://docs.getdbt.com/) to model data. This section gives a complete overview of getting set up to contribute models with DBT. (Hint: if you know SQL, you're 95% of the way to knowing DBT.) [Avalanche](tables/avalanche-tables.md) and [Ethereum ](tables/ethereum-tables.md)repositories are setup for community curation.
-
-#### Access
-
-**Snowflake (ask in #community-curation)**
-
-"Hi , I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>"`
-
-**dbt cloud \[Optional]**
-
-Sign up on your own:  [https://www.getdbt.com/signup/](https://www.getdbt.com/signup/)
-
-#### **Software Setup**
-
-* (Optional) Install dbt on your terminal:[  https://docs.getdbt.com/dbt-cli/install/overview](https://docs.getdbt.com/dbt-cli/install/overview)
-* Install Git (if you don’t have it):[  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* Download Docker desktop: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
-* Install VSCode: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-
-#### **Project Setup**
-
-1. Clone the project you want to work on from [FlipsideCrypto Github Org](https://github.com/FlipsideCrypto)
-   * Example for Ethereum: `git clone https://github.com/FlipsideCrypto/ethereum-models.git`
-2. Open the project in VSCode
-3. Create a `.env` file in the root directory of your project (note: the .env file will not be committed to the source)
-   * There is a provided `.env.sample` in the repository you may use as reference to create `.env`
-4. Start a new branch in the repository
-   * Ensure you have the latest pulled down from the `main` branch
-     * `git checkout main`
-     * `git pull`
-   * Branch name should follow convention:  `community/<branch_name>`
-   * Ex:  `git checkout -b community/my-new-model`
-5. Start dbt console (this is where you will run your models to have them deployed to snowflake)
-   * `make dbt-console`
-6. Within the console, run `dbt debug` to ensure all connections are working
-
-**You are now ready to create your first data model!**
-
-#### **Create and contribute your first model**
+**Create and contribute your first model**
 
 1. Understand the modeling structure
-   * Data models iterate through different “layers”. Generally speaking these are bronze, silver, and core.
-   * Bronze is raw data layer
-   * Silver is intermediate data modeling layer
-   * Core is the presentation layer, aka what is exposed to the public
-   * **Most of the time you will be working within the silver layer**
+   * Data models iterate through different “layers”. Generally speaking these are bronze, silver, and core. How these layers interact is defined in [Model Standards](../model-standards/).
 2. Create model file within the proper layer and naming convention
    * Naming convention for file is `<layer name>__<table name>.sql`
    * Example for silver layer: **** `./models/silver/silver__my_new_table.sql`
