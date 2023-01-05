@@ -56,6 +56,8 @@ The Osmosis tables are built on Osmosis transaction and messages information.&#x
 
 [Dim Vote Options](osmosis-dim-vote-options.md)
 
+[EZ Prices](osmosis-ez-prices.md)
+
 #### What we have:
 
 * All on-chain Osmosis events dating back to the genesis block in June 2021.&#x20;
