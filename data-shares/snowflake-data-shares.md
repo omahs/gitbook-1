@@ -28,7 +28,7 @@ Data include core tables (blocks, events, transactions) for every chain, with ad
 | [Compound](../our-data/tables/compound-tables/)                                   | [Sushi](../our-data/tables/ethereum-sushi-tables.md)        |
 | [Ethereum](../our-data/tables/ethereum-tables.md)                                 | [FLOW](../our-data/tables/flow-tables/)                     |
 | [THORChain](../our-data/tables/thorchain-tables/thorchain-base-table/)            | [Gnosis](../our-data/tables/flow-tables/)                   |
-| [Uniswap V3](../our-data/tables/uniswap-v3-tables/)                               |                                                             |
+| [Uniswap V3](../our-data/tables/uniswap-v3-tables/)                               | [Terra](../our-data/tables/terra-tables/)                   |
 
 ### How do I request a data share?
 
