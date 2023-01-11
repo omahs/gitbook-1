@@ -25,3 +25,9 @@ The Axelar tables are currently in lite mode. All transaction and message data i
 [Fact Staking](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_staking)
 
 [Fact Staking Rewards](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_staking\_rewards)
+
+[Fact Governance Proposal Deposits](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_governance\_proposal\_deposits)
+
+[Fact Governance Submit Proposal](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_governance\_submit\_proposal)
+
+[Fact Governance Votes](https://flipsidecrypto.github.io/axelar-models/#!/model/model.axelar.core\_\_fact\_governance\_votes)
