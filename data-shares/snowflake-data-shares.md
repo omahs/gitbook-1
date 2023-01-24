@@ -45,7 +45,7 @@ You can also email your request to data-shares@flipsidecrypto.com with the subje
 
 ### How much does this cost?
 
-Access to Snowflake data shares is free, and you only pay for your own Snowflake compute costs (Flipside pays for Snowflake storage).
+To learn more please [reach out to us](https://data.flipsidecrypto.xyz/)!&#x20;
 
 ### **Questions?**
 
