@@ -40,7 +40,7 @@ You should _not_ use the API to attempt ongoing downloads of large datasets (e.g
 
 Request a [data share](../data-shares/snowflake-data-shares.md) when you want Snowflake access to the entirety of our petabyte scale databases in your own Snowflake environment. This is the best option for teams who want to incorporate large amounts of historical data, real-time data, or who want to join our data with their own internal data.
 
-Access to Snowflake data shares is free, and you pay for your own Snowflake compute costs.
+For more information or to request access please visit [https://data.flipsidecrypto.xyz/](https://data.flipsidecrypto.xyz/)
 
 
 
