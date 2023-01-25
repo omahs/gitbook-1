@@ -32,5 +32,5 @@ Quick Links to Table Docs:\
 
 
 
-Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.hex\_to\_int() function](../tutorials/hex-to-integer-function.md).\
+Note: when working with the `fact_transactions` and `fact_event_logs` tables, you may find it useful to use the [ethereum.public.udf\_hex\_to\_int() function](../tutorials/hex-to-integer-function.md).\
 \
