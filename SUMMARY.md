@@ -105,6 +105,7 @@
     * [Osmosis Fact Validators](our-data/tables/osmosis-tables/osmosis-fact-validators.md)
     * [Osmosis Dim Vote Options](our-data/tables/osmosis-tables/osmosis-dim-vote-options.md)
     * [Osmosis EZ Prices](our-data/tables/osmosis-tables/osmosis-ez-prices.md)
+    * [Osmosis EZ ICNS](our-data/tables/osmosis-tables/osmosis-ez-icns.md)
   * [Polygon Tables](our-data/tables/polygon-tables/README.md)
     * [Polygon Events Emitted](our-data/tables/polygon-tables/polygon-events-emitted.md)
     * [Polygon Transactions](our-data/tables/polygon-tables/polygon-transactions.md)

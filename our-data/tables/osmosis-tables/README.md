@@ -58,6 +58,8 @@ The Osmosis tables are built on Osmosis transaction and messages information.&#x
 
 [EZ Prices](osmosis-ez-prices.md)
 
+[EZ ICNS](osmosis-ez-icns.md)
+
 #### What we have:
 
 * All on-chain Osmosis events dating back to the genesis block in June 2021.&#x20;
