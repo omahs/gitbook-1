@@ -1,4 +1,4 @@
-# Data Tutorials
+# Video Tutorials
 
 Learn more about our data structures for specific blockchains with these articles and video tutorials. You'll also learn helpful tips for starting your analyses and working with blockchain data in SQL.
 
@@ -6,10 +6,6 @@ Learn more about our data structures for specific blockchains with these article
 
 {% content-ref url="overview-of-schemas-and-tables.md" %}
 [overview-of-schemas-and-tables.md](overview-of-schemas-and-tables.md)
-{% endcontent-ref %}
-
-{% content-ref url="algorand-tutorials.md" %}
-[algorand-tutorials.md](algorand-tutorials.md)
 {% endcontent-ref %}
 
 {% content-ref url="ethereum-tutorials/" %}

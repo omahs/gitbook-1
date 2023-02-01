@@ -3,7 +3,7 @@
 This guide provides an introduction to exploring Dai related events by using the`ethereum.udm_events` table over a series of simple queries that explore the data.
 
 {% hint style="info" %}
-Note: this tutorial uses deprecated Ethereum tables. See the new [Maker DAO](../tables/ethereum-maker-dao-tables.md) curated tables.
+Note: this tutorial uses deprecated Ethereum tables. See the new [Maker DAO](../archive/tables/ethereum-maker-dao-tables.md) curated tables.
 {% endhint %}
 
 Let's familiarize ourselves with the table by first looking at the types of events that can be queried for `Dai`
@@ -54,7 +54,7 @@ ORDER BY metric_date ASC
 
 ![](<../../.gitbook/assets/Screen Shot 2020-11-08 at 8.29.00 PM.png>)
 
-We can break this query down even further by leveraging [Flipside's labels](../address-tags-and-labels/labels/). Let's calculate the amount of DAI that is flowing to centralized exchanges using the `distributor_cex` label sub-type.
+We can break this query down even further by leveraging [Flipside's labels](../labels/). Let's calculate the amount of DAI that is flowing to centralized exchanges using the `distributor_cex` label sub-type.
 
 ```sql
 SELECT 

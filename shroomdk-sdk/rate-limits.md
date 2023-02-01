@@ -1,3 +1,7 @@
+---
+description: Rate limits for the API help us deliver consistent performance for all users.
+---
+
 # Rate Limits
 
 {% hint style="info" %}

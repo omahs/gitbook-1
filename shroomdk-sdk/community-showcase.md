@@ -1,3 +1,7 @@
+---
+description: Examples of projects people have built with ShroomDK!
+---
+
 # Community Showcase
 
 _Apps, data science, advanced analytics — the crypto space wants to see what you're creating._

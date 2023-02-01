@@ -1,28 +1,12 @@
-# Examples
+---
+description: Examples to help solve common problems, like paginating through results.
+---
 
-_Share a code example with our community by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _for this page or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_._
+# Example Code
 
-__
-
-#### Contents
-
-| Basic Code Examples                                                                |
-| ---------------------------------------------------------------------------------- |
-| [Query Pagination](examples.md#query-pagination)                                   |
-| [Query Pagination - Get All Records](examples.md#query-pagination-get-all-records) |
-|                                                                                    |
-
-| Templates & Walkthroughs                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Basic React App](https://github.com/FlipsideCrypto/sdk/tree/main/examples/js/react-app)                                                                                                                                              |
-| [Python Notebook - SDK Intro & Features](https://github.com/FlipsideCrypto/sdk/tree/main/examples/python/notebooks)                                                                                                                   |
-| [R Markdown Repo](https://github.com/FlipsideCrypto/sdk/tree/main/examples/r) \| [A Real Bored Ape Yacht Club Analysis](https://science.flipsidecrypto.xyz/content/cde48707-2e25-45e8-bd1f-451482c4efed/shroomDK\_BAYC\_example.html) |
-
-### Query Pagination
+### 1. Query Pagination
 
 All query result sets return a maximum of 1,000,000 rows. The entire query result set is cached in accordance with the query’s TTL and subsets can be retrieved by specifying the page size and page number. All without rerunning the initial query and depleting your query run quota.
-
-
 
 By default, all query runs will be set to the following if pagination is not specified.
 
@@ -149,7 +133,7 @@ Updating the pageNumber does NOT re-execute the query and therefore does not ded
 {% endtab %}
 {% endtabs %}
 
-### Query Pagination - Get All Records
+### 2. Query Pagination - Get All Records
 
 Retrieve all records up to the 1,000,000 row limit.
 
@@ -229,3 +213,5 @@ df = querying_pagination(df_query)
 ```
 {% endtab %}
 {% endtabs %}
+
+_If you have an example you think would be helpful for others: please share with the community by submitting a_ [_pull request_](https://github.com/FlipsideCrypto/gitbook/) _for this page, or sharing in_ [_Discord_](https://discord.gg/ZmU3jQuu6W)_._
